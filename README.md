@@ -22,4 +22,4 @@ WORKFLOW
 
 7. Malaria_Map_Cases.R reads Malaria_ByCountry.csv and files in "Data/CreateChoroplethPlotFiles" to generate Malaria_Map_Cases.pdf (Figure 6). Similarly, Malaria_Map_ResCases.R ouptus Malaria_ResMap_Cases.pdf (Figure 7), and Malaria_Map_Deaths.R outputs Malaria_Map_Deaths.pdf (Figure 8).
 
-8. Outcomes averted per capita for each country are generated at the end of each Malaria_Map_[Outcome].R file. 
+8. Outcomes averted per 1,000 population for each country are generated at the end of each Malaria_Map_[Outcome].R file. 
