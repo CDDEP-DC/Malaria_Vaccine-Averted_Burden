@@ -1,9 +1,6 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-@author: alisahamilton
-Created June 2022
-"""
+# Malaria Vaccine-Averted Burden
+# Generate uncertainty intervals with MC simulation
+# Created by Alisa Hamilton
 
 import pandas as pd
 import os
@@ -22,8 +19,7 @@ import time
 start_time = time.time()
 
 #set directory
-# OneDrive = "/Users/alisahamilton/Library/CloudStorage/OneDrive-CenterforDiseaseDynamics,Economics&Policy/HIV Malaria Vaccine/2. Code/"
-OneDrive = "/Users/Fardad/OneDrive - Center for Disease Dynamics, Economics & Policy/HIV Malaria Vaccine/2. Code/"
+OneDrive = "[insert file path]"
 
 # parameters
 c = 0.7 #coverage
@@ -32,7 +28,6 @@ trr = 0.757 # treatment received rate
 
 #preprocessing
 data1 = pd.read_csv(OneDrive + "Results/Malaria_Data.csv")
-
 
 def runMC(data1):
     #OneDrive = "/Users/alisahamilton/Library/CloudStorage/OneDrive-CenterforDiseaseDynamics,Economics&Policy/HIV Malaria Vaccine/2. Code/"
@@ -144,8 +139,7 @@ if __name__ == "__main__":
     numproc = int(mp.cpu_count()-1)
     pools = mp.Pool(processes=numproc)
     # prepare input data
-    #OneDrive = "/Users/alisahamilton/Library/CloudStorage/OneDrive-CenterforDiseaseDynamics,Economics&Policy/HIV Malaria Vaccine/2. Code/"
-    OneDrive = "/Users/Fardad/OneDrive - Center for Disease Dynamics, Economics & Policy/HIV Malaria Vaccine/2. Code/"
+    OneDrive = "[insert file path]"
     data1 = pd.read_csv(OneDrive + "Results/Malaria_Data.csv")
     scenarios = ['VE0', 'VE1', 'VE2', 'VE3']
     cohorts = [1,2,3,4,5,6,7,8,9,10]
@@ -217,7 +211,3 @@ if __name__ == "__main__":
     final.to_csv(OneDrive + '/Results/Malaria_MC.csv')
 
 print("--- %s seconds ---" % (time.time() - start_time))     
-
-
-
-
