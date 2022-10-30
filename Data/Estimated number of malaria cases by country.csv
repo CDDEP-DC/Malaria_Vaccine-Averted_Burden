@@ -1,0 +1,857 @@
+IndicatorCode,Indicator,ValueType,ParentLocationCode,ParentLocation,Location type,SpatialDimValueCode,Location,Period type,Period,IsLatestYear,Dim1 type,Dim1,Dim1ValueCode,Dim2 type,Dim2,Dim2ValueCode,Dim3 type,Dim3,Dim3ValueCode,DataSourceDimValueCode,DataSource,FactValueNumericPrefix,FactValueNumeric,FactValueUoM,FactValueNumericLowPrefix,FactValueNumericLow,FactValueNumericHighPrefix,FactValueNumericHigh,Value,FactValueTranslationID,FactComments,Language,DateModified
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,DZA,Algeria,Year,2017,true,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,ARG,Argentina,Year,2017,true,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,ARM,Armenia,Year,2017,true,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,AZE,Azerbaijan,Year,2017,true,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,CHN,China,Year,2017,true,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,EGY,Egypt,Year,2017,true,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,SLV,El Salvador,Year,2017,true,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,GEO,Georgia,Year,2017,true,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,IRQ,Iraq,Year,2017,true,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,KAZ,Kazakhstan,Year,2017,true,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,KGZ,Kyrgyzstan,Year,2017,true,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,MAR,Morocco,Year,2017,true,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,OMN,Oman,Year,2017,true,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,PRY,Paraguay,Year,2017,true,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,LKA,Sri Lanka,Year,2017,true,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,SYR,Syrian Arab Republic,Year,2017,true,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,TJK,Tajikistan,Year,2017,true,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,TUR,Turkey,Year,2017,true,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,TKM,Turkmenistan,Year,2017,true,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,ARE,United Arab Emirates,Year,2017,true,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,UZB,Uzbekistan,Year,2017,true,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,SEN,Senegal,Year,2017,true,,,,,,,,,,,,,1024285,,,701000,,1384000,"1,024,285 [701,000 – 1,384,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,COG,Congo,Year,2017,true,,,,,,,,,,,,,1039706,,,559000,,1710000,"1,039,706 [559,000 – 1,710,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,ZWE,Zimbabwe,Year,2017,true,,,,,,,,,,,,,1239430,,,826000,,1737000,"1,239,430 [826,000 – 1,737,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,ECU,Ecuador,Year,2017,true,,,,,,,,,,,,,1275,,,,,,"1,275",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,PNG,Papua New Guinea,Year,2017,true,,,,,,,,,,,,,1500657,,,1032000,,2063000,"1,500,657 [1,032,000 – 2,063,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,SDN,Sudan,Year,2017,true,,,,,,,,,,,,,1517910,,,903000,,2348000,"1,517,910 [903,000 – 2,348,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,IDN,Indonesia,Year,2017,true,,,,,,,,,,,,,1530566,,,1232000,,1978000,"1,530,566 [1,232,000 – 1,978,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,HND,Honduras,Year,2017,true,,,,,,,,,,,,,1695,,,1400,,2100,"1,695 [1,400 – 2,100]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,SSD,South Sudan,Year,2017,true,,,,,,,,,,,,,1781704,,,1055000,,2799000,"1,781,704 [1,055,000 – 2,799,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,CAF,Central African Republic,Year,2017,true,,,,,,,,,,,,,1804550,,,777000,,3363000,"1,804,550 [777,000 – 3,363,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,MOZ,Mozambique,Year,2017,true,,,,,,,,,,,,,10025823,,,7360000,,13570000,"10,025,823 [7,360,000 – 13,570,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,SLB,Solomon Islands,Year,2017,true,,,,,,,,,,,,,103482,,,79000,,141000,"103,482 [79,000 – 141,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,GNB,Guinea-Bissau,Year,2017,true,,,,,,,,,,,,,107972,,,40000,,263000,"107,972 [40,000 – 263,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,BTN,Bhutan,Year,2017,true,,,,,,,,,,,,,11,,,,,,11,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,THA,Thailand,Year,2017,true,,,,,,,,,,,,,11043,,,,,,"11,043",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,ERI,Eritrea,Year,2017,true,,,,,,,,,,,,,115928,,,75000,,162000,"115,928 [75,000 – 162,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,MMR,Myanmar,Year,2017,true,,,,,,,,,,,,,116772,,,95000,,140000,"116,772 [95,000 – 140,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,GMB,Gambia,Year,2017,true,,,,,,,,,,,,,119044,,,96000,,144000,"119,044 [96,000 – 144,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,CRI,Costa Rica,Year,2017,true,,,,,,,,,,,,,12,,,,,,12,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,NIC,Nicaragua,Year,2017,true,,,,,,,,,,,,,13711,,,11000,,16000,"13,711 [11,000 – 16,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,PHL,Philippines,Year,2017,true,,,,,,,,,,,,,15253,,,11000,,19000,"15,253 [11,000 – 19,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,DJI,Djibouti,Year,2017,true,,,,,,,,,,,,,15265,,,,,,"15,265",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,SAU,Saudi Arabia,Year,2017,true,,,,,,,,,,,,,177,,,,,,177,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,BDI,Burundi,Year,2017,true,,,,,,,,,,,,,2113066,,,1284000,,3401000,"2,113,066 [1,284,000 – 3,401,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,PRK,Democratic People's Republic of Korea,Year,2017,true,,,,,,,,,,,,,2184,,,,,,"2,184",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,STP,Sao Tome and Principe,Year,2017,true,,,,,,,,,,,,,2239,,,,,,"2,239",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,VUT,Vanuatu,Year,2017,true,,,,,,,,,,,,,2270,,,1700,,3100,"2,270 [1,700 – 3,100]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,MDG,Madagascar,Year,2017,true,,,,,,,,,,,,,2324289,,,1740000,,2992000,"2,324,289 [1,740,000 – 2,992,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,ETH,Ethiopia,Year,2017,true,,,,,,,,,,,,,2666954,,,538000,,6277000,"2,666,954 [538,000 – 6,277,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,TCD,Chad,Year,2017,true,,,,,,,,,,,,,2779489,,,1449000,,4832000,"2,779,489 [1,449,000 – 4,832,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,SLE,Sierra Leone,Year,2017,true,,,,,,,,,,,,,2869588,,,1954000,,4250000,"2,869,588 [1,954,000 – 4,250,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,TGO,Togo,Year,2017,true,,,,,,,,,,,,,2891868,,,2015000,,4257000,"2,891,868 [2,015,000 – 4,257,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,BWA,Botswana,Year,2017,true,,,,,,,,,,,,,2989,,,2300,,4200,"2,989 [2,300 – 4,200]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,LAO,Lao People's Democratic Republic,Year,2017,true,,,,,,,,,,,,,20712,,,16000,,27000,"20,712 [16,000 – 27,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,KHM,Cambodia,Year,2017,true,,,,,,,,,,,,,208273,,,186000,,236000,"208,273 [186,000 – 236,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,BRA,Brazil,Year,2017,true,,,,,,,,,,,,,217928,,,196000,,236000,"217,928 [196,000 – 236,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,ZAF,South Africa,Year,2017,true,,,,,,,,,,,,,22517,,,,,,"22,517",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,MRT,Mauritania,Year,2017,true,,,,,,,,,,,,,238272,,,95000,,445000,"238,272 [95,000 – 445,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,GUY,Guyana,Year,2017,true,,,,,,,,,,,,,24913,,,19000,,34000,"24,913 [19,000 – 34,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,COD,Democratic Republic of the Congo,Year,2017,true,,,,,,,,,,,,,25021891,,,15670000,,38570000,"25,021,891 [15,670,000 – 38,570,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,COM,Comoros,Year,2017,true,,,,,,,,,,,,,3230,,,,,,"3,230",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,CIV,Côte d’Ivoire,Year,2017,true,,,,,,,,,,,,,3373486,,,1847000,,5475000,"3,373,486 [1,847,000 – 5,475,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,ZMB,Zambia,Year,2017,true,,,,,,,,,,,,,3475522,,,2492000,,4899000,"3,475,522 [2,492,000 – 4,899,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,KEN,Kenya,Year,2017,true,,,,,,,,,,,,,3520384,,,1970000,,5860000,"3,520,384 [1,970,000 – 5,860,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,NPL,Nepal,Year,2017,true,,,,,,,,,,,,,3829,,,3100,,4800,"3,829 [3,100 – 4,800]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,HTI,Haiti,Year,2017,true,,,,,,,,,,,,,32011,,,22000,,43000,"32,011 [22,000 – 43,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,BGD,Bangladesh,Year,2017,true,,,,,,,,,,,,,32924,,,30000,,36000,"32,924 [30,000 – 36,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,GAB,Gabon,Year,2017,true,,,,,,,,,,,,,341980,,,145000,,651000,"341,980 [145,000 – 651,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,TLS,Timor-Leste,Year,2017,true,,,,,,,,,,,,,36,,,30,,40,36 [30 – 40],,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,BEN,Benin,Year,2017,true,,,,,,,,,,,,,4111699,,,2774000,,6552000,"4,111,699 [2,774,000 – 6,552,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,GIN,Guinea,Year,2017,true,,,,,,,,,,,,,4282165,,,2858000,,6083000,"4,282,165 [2,858,000 – 6,083,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,MWI,Malawi,Year,2017,true,,,,,,,,,,,,,4303543,,,2707000,,6366000,"4,303,543 [2,707,000 – 6,366,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,AGO,Angola,Year,2017,true,,,,,,,,,,,,,4615605,,,3106000,,6661000,"4,615,605 [3,106,000 – 6,661,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,GTM,Guatemala,Year,2017,true,,,,,,,,,,,,,4739,,,4000,,6100,"4,739 [4,000 – 6,100]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,SUR,Suriname,Year,2017,true,,,,,,,,,,,,,40,,,,,,40,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,DOM,Dominican Republic,Year,2017,true,,,,,,,,,,,,,405,,,360,,460,405 [360 – 460],,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,CPV,Cabo Verde,Year,2017,true,,,,,,,,,,,,,423,,,,,,423,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,GNQ,Equatorial Guinea,Year,2017,true,,,,,,,,,,,,,435143,,,269000,,653000,"435,143 [269,000 – 653,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,KOR,Republic of Korea,Year,2017,true,,,,,,,,,,,,,436,,,,,,436,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,VNM,Viet Nam,Year,2017,true,,,,,,,,,,,,,5481,,,5100,,6000,"5,481 [5,100 – 6,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,VEN,Venezuela (Bolivarian Republic of),Year,2017,true,,,,,,,,,,,,,519109,,,433000,,665000,"519,109 [433,000 – 665,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,NGA,Nigeria,Year,2017,true,,,,,,,,,,,,,53667565,,,36330000,,75930000,"53,667,565 [36,330,000 – 75,930,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,SOM,Somalia,Year,2017,true,,,,,,,,,,,,,541768,,,319000,,814000,"541,768 [319,000 – 814,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,RWA,Rwanda,Year,2017,true,,,,,,,,,,,,,6172220,,,4689000,,7718000,"6,172,220 [4,689,000 – 7,718,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,TZA,United Republic of Tanzania,Year,2017,true,,,,,,,,,,,,,6477825,,,4140000,,9717000,"6,477,825 [4,140,000 – 9,717,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,BOL,Bolivia (Plurinational State of),Year,2017,true,,,,,,,,,,,,,6512,,,4900,,8300,"6,512 [4,900 – 8,300]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,IRN,Iran (Islamic Republic of),Year,2017,true,,,,,,,,,,,,,60,,,,,,60,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,AFG,Afghanistan,Year,2017,true,,,,,,,,,,,,,630308,,,495000,,801000,"630,308 [495,000 – 801,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,BLZ,Belize,Year,2017,true,,,,,,,,,,,,,7,,,,,,7,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,MLI,Mali,Year,2017,true,,,,,,,,,,,,,7160192,,,5060000,,10180000,"7,160,192 [5,060,000 – 10,180,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,CMR,Cameroon,Year,2017,true,,,,,,,,,,,,,7307515,,,4704000,,11030000,"7,307,515 [4,704,000 – 11,030,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,NER,Niger,Year,2017,true,,,,,,,,,,,,,7702777,,,4039000,,12850000,"7,702,777 [4,039,000 – 12,850,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,GHA,Ghana,Year,2017,true,,,,,,,,,,,,,7805045,,,5031000,,11880000,"7,805,045 [5,031,000 – 11,880,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,BFA,Burkina Faso,Year,2017,true,,,,,,,,,,,,,7907562,,,5645000,,11330000,"7,907,562 [5,645,000 – 11,330,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,PER,Peru,Year,2017,true,,,,,,,,,,,,,70745,,,59000,,83000,"70,745 [59,000 – 83,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,SWZ,Eswatini,Year,2017,true,,,,,,,,,,,,,724,,,,,,724,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,MEX,Mexico,Year,2017,true,,,,,,,,,,,,,736,,,,,,736,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,YEM,Yemen,Year,2017,true,,,,,,,,,,,,,762995,,,547000,,1083000,"762,995 [547,000 – 1,083,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,UGA,Uganda,Year,2017,true,,,,,,,,,,,,,8600724,,,5168000,,13630000,"8,600,724 [5,168,000 – 13,630,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,COL,Colombia,Year,2017,true,,,,,,,,,,,,,80357,,,60000,,103000,"80,357 [60,000 – 103,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,PAN,Panama,Year,2017,true,,,,,,,,,,,,,808,,,760,,860,808 [760 – 860],,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,MYS,Malaysia,Year,2017,true,,,,,,,,,,,,,85,,,,,,85,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,NAM,Namibia,Year,2017,true,,,,,,,,,,,,,89611,,,71000,,109000,"89,611 [71,000 – 109,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,IND,India,Year,2017,true,,,,,,,,,,,,,9590000,,,6965000,,13260000,"9,590,000 [6,965,000 – 13,260,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,LBR,Liberia,Year,2017,true,,,,,,,,,,,,,911333,,,423000,,1571000,"911,333 [423,000 – 1,571,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,PAK,Pakistan,Year,2017,true,,,,,,,,,,,,,956280,,,726000,,1348000,"956,280 [726,000 – 1,348,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,DZA,Algeria,Year,2016,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,ARG,Argentina,Year,2016,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,ARM,Armenia,Year,2016,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,AZE,Azerbaijan,Year,2016,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,EGY,Egypt,Year,2016,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,GEO,Georgia,Year,2016,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,IRQ,Iraq,Year,2016,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,KAZ,Kazakhstan,Year,2016,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,KGZ,Kyrgyzstan,Year,2016,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,MAR,Morocco,Year,2016,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,OMN,Oman,Year,2016,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,PRY,Paraguay,Year,2016,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,LKA,Sri Lanka,Year,2016,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,SYR,Syrian Arab Republic,Year,2016,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,TJK,Tajikistan,Year,2016,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,TUR,Turkey,Year,2016,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,TKM,Turkmenistan,Year,2016,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,ARE,United Arab Emirates,Year,2016,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,UZB,Uzbekistan,Year,2016,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,COG,Congo,Year,2016,false,,,,,,,,,,,,,1030697,,,551000,,1698000,"1,030,697 [551,000 – 1,698,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,COM,Comoros,Year,2016,false,,,,,,,,,,,,,1143,,,,,,"1,143",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,BWA,Botswana,Year,2016,false,,,,,,,,,,,,,1150,,,890,,1600,"1,150 [890 – 1,600]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,ECU,Ecuador,Year,2016,false,,,,,,,,,,,,,1191,,,,,,"1,191",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,PAK,Pakistan,Year,2016,false,,,,,,,,,,,,,1202476,,,823000,,1904000,"1,202,476 [823,000 – 1,904,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,IDN,Indonesia,Year,2016,false,,,,,,,,,,,,,1293337,,,1043000,,1679000,"1,293,337 [1,043,000 – 1,679,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,PNG,Papua New Guinea,Year,2016,false,,,,,,,,,,,,,1469150,,,1063000,,1958000,"1,469,150 [1,063,000 – 1,958,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,SDN,Sudan,Year,2016,false,,,,,,,,,,,,,1484475,,,879000,,2301000,"1,484,475 [879,000 – 2,301,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,MDG,Madagascar,Year,2016,false,,,,,,,,,,,,,1692049,,,1241000,,2231000,"1,692,049 [1,241,000 – 2,231,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,SSD,South Sudan,Year,2016,false,,,,,,,,,,,,,1739256,,,1030000,,2735000,"1,739,256 [1,030,000 – 2,735,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,CAF,Central African Republic,Year,2016,false,,,,,,,,,,,,,1780632,,,762000,,3310000,"1,780,632 [762,000 – 3,310,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,GNB,Guinea-Bissau,Year,2016,false,,,,,,,,,,,,,105441,,,39000,,257000,"105,441 [39,000 – 257,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,COL,Colombia,Year,2016,false,,,,,,,,,,,,,115125,,,88000,,144000,"115,125 [88,000 – 144,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,SLV,El Salvador,Year,2016,false,,,,,,,,,,,,,12,,,,,,12,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,IND,India,Year,2016,false,,,,,,,,,,,,,12630000,,,8993000,,17830000,"12,630,000 [8,993,000 – 17,830,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,KHM,Cambodia,Year,2016,false,,,,,,,,,,,,,127552,,,114000,,144000,"127,552 [114,000 – 144,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,THA,Thailand,Year,2016,false,,,,,,,,,,,,,13451,,,,,,"13,451",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,DJI,Djibouti,Year,2016,false,,,,,,,,,,,,,13804,,,,,,"13,804",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,BRA,Brazil,Year,2016,false,,,,,,,,,,,,,133591,,,128000,,142000,"133,591 [128,000 – 142,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,TLS,Timor-Leste,Year,2016,false,,,,,,,,,,,,,148,,,120,,170,148 [120 – 170],,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,BTN,Bhutan,Year,2016,false,,,,,,,,,,,,,15,,,,,,15,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,PHL,Philippines,Year,2016,false,,,,,,,,,,,,,16173,,,12000,,21000,"16,173 [12,000 – 21,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,BDI,Burundi,Year,2016,false,,,,,,,,,,,,,2053294,,,1247000,,3303000,"2,053,294 [1,247,000 – 3,303,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,STP,Sao Tome and Principe,Year,2016,false,,,,,,,,,,,,,2238,,,,,,"2,238",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,TCD,Chad,Year,2016,false,,,,,,,,,,,,,2689908,,,1404000,,4670000,"2,689,908 [1,404,000 – 4,670,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,PRK,Democratic People's Republic of Korea,Year,2016,false,,,,,,,,,,,,,2719,,,,,,"2,719",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,NPL,Nepal,Year,2016,false,,,,,,,,,,,,,2754,,,1900,,4800,"2,754 [1,900 – 4,800]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,SLE,Sierra Leone,Year,2016,false,,,,,,,,,,,,,2796045,,,1904000,,4132000,"2,796,045 [1,904,000 – 4,132,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,TGO,Togo,Year,2016,false,,,,,,,,,,,,,2862933,,,1997000,,4209000,"2,862,933 [1,997,000 – 4,209,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,ETH,Ethiopia,Year,2016,false,,,,,,,,,,,,,2927266,,,525000,,6983000,"2,927,266 [525,000 – 6,983,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,GUY,Guyana,Year,2016,false,,,,,,,,,,,,,22108,,,17000,,30000,"22,108 [17,000 – 30,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,COD,Democratic Republic of the Congo,Year,2016,false,,,,,,,,,,,,,24454696,,,15330000,,37700000,"24,454,696 [15,330,000 – 37,700,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,GMB,Gambia,Year,2016,false,,,,,,,,,,,,,253981,,,204000,,307000,"253,981 [204,000 – 307,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,MMR,Myanmar,Year,2016,false,,,,,,,,,,,,,262577,,,214000,,316000,"262,577 [214,000 – 316,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,MYS,Malaysia,Year,2016,false,,,,,,,,,,,,,266,,,,,,266,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,SAU,Saudi Arabia,Year,2016,false,,,,,,,,,,,,,272,,,,,,272,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,LAO,Lao People's Democratic Republic,Year,2016,false,,,,,,,,,,,,,28152,,,21000,,36000,"28,152 [21,000 – 36,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,MRT,Mauritania,Year,2016,false,,,,,,,,,,,,,298498,,,138000,,540000,"298,498 [138,000 – 540,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,CHN,China,Year,2016,false,,,,,,,,,,,,,3,,,,,,3,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,CIV,Côte d’Ivoire,Year,2016,false,,,,,,,,,,,,,3319810,,,1802000,,5391000,"3,319,810 [1,802,000 – 5,391,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,ZMB,Zambia,Year,2016,false,,,,,,,,,,,,,3387771,,,2422000,,4776000,"3,387,771 [2,422,000 – 4,776,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,KEN,Kenya,Year,2016,false,,,,,,,,,,,,,3452117,,,1921000,,5768000,"3,452,117 [1,921,000 – 5,768,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,VEN,Venezuela (Bolivarian Republic of),Year,2016,false,,,,,,,,,,,,,303471,,,253000,,387000,"303,471 [253,000 – 387,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,BGD,Bangladesh,Year,2016,false,,,,,,,,,,,,,31169,,,28000,,34000,"31,169 [28,000 – 34,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,GAB,Gabon,Year,2016,false,,,,,,,,,,,,,334796,,,142000,,637000,"334,796 [142,000 – 637,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,HTI,Haiti,Year,2016,false,,,,,,,,,,,,,35105,,,24000,,47000,"35,105 [24,000 – 47,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,SWZ,Eswatini,Year,2016,false,,,,,,,,,,,,,350,,,,,,350,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,BLZ,Belize,Year,2016,false,,,,,,,,,,,,,4,,,,,,4,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,CRI,Costa Rica,Year,2016,false,,,,,,,,,,,,,4,,,,,,4,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,BEN,Benin,Year,2016,false,,,,,,,,,,,,,4007210,,,2703000,,6376000,"4,007,210 [2,703,000 – 6,376,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,VUT,Vanuatu,Year,2016,false,,,,,,,,,,,,,4184,,,3200,,5700,"4,184 [3,200 – 5,700]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,GIN,Guinea,Year,2016,false,,,,,,,,,,,,,4197876,,,2801000,,5973000,"4,197,876 [2,801,000 – 5,973,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,MWI,Malawi,Year,2016,false,,,,,,,,,,,,,4223467,,,2647000,,6235000,"4,223,467 [2,647,000 – 6,235,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,ZAF,South Africa,Year,2016,false,,,,,,,,,,,,,4323,,,,,,"4,323",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,AGO,Angola,Year,2016,false,,,,,,,,,,,,,4485050,,,3010000,,6468000,"4,485,050 [3,010,000 – 6,468,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,NAM,Namibia,Year,2016,false,,,,,,,,,,,,,41608,,,33000,,51000,"41,608 [33,000 – 51,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,GNQ,Equatorial Guinea,Year,2016,false,,,,,,,,,,,,,427357,,,264000,,642000,"427,357 [264,000 – 642,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,CPV,Cabo Verde,Year,2016,false,,,,,,,,,,,,,48,,,,,,48,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,VNM,Viet Nam,Year,2016,false,,,,,,,,,,,,,5024,,,4600,,5600,"5,024 [4,600 – 5,600]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,HND,Honduras,Year,2016,false,,,,,,,,,,,,,5934,,,4600,,7400,"5,934 [4,600 – 7,400]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,NGA,Nigeria,Year,2016,false,,,,,,,,,,,,,52357005,,,35450000,,74040000,"52,357,005 [35,450,000 – 74,040,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,SOM,Somalia,Year,2016,false,,,,,,,,,,,,,528591,,,310000,,794000,"528,591 [310,000 – 794,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,MEX,Mexico,Year,2016,false,,,,,,,,,,,,,551,,,,,,551,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,GTM,Guatemala,Year,2016,false,,,,,,,,,,,,,6120,,,5100,,7800,"6,120 [5,100 – 7,800]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,TZA,United Republic of Tanzania,Year,2016,false,,,,,,,,,,,,,6317222,,,4017000,,9481000,"6,317,222 [4,017,000 – 9,481,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,RWA,Rwanda,Year,2016,false,,,,,,,,,,,,,6608358,,,5020000,,8268000,"6,608,358 [5,020,000 – 8,268,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,MLI,Mali,Year,2016,false,,,,,,,,,,,,,6902717,,,4871000,,9821000,"6,902,717 [4,871,000 – 9,821,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,KOR,Republic of Korea,Year,2016,false,,,,,,,,,,,,,602,,,,,,602,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,AFG,Afghanistan,Year,2016,false,,,,,,,,,,,,,614491,,,439000,,838000,"614,491 [439,000 – 838,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,YEM,Yemen,Year,2016,false,,,,,,,,,,,,,667967,,,477000,,946000,"667,967 [477,000 – 946,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,CMR,Cameroon,Year,2016,false,,,,,,,,,,,,,7176158,,,4625000,,10820000,"7,176,158 [4,625,000 – 10,820,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,NER,Niger,Year,2016,false,,,,,,,,,,,,,7457829,,,3910000,,12420000,"7,457,829 [3,910,000 – 12,420,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,GHA,Ghana,Year,2016,false,,,,,,,,,,,,,7652909,,,4966000,,11680000,"7,652,909 [4,966,000 – 11,680,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,BFA,Burkina Faso,Year,2016,false,,,,,,,,,,,,,7675183,,,5478000,,11000000,"7,675,183 [5,478,000 – 11,000,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,NIC,Nicaragua,Year,2016,false,,,,,,,,,,,,,7854,,,6600,,9200,"7,854 [6,600 – 9,200]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,BOL,Bolivia (Plurinational State of),Year,2016,false,,,,,,,,,,,,,7894,,,5900,,10000,"7,894 [5,900 – 10,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,PER,Peru,Year,2016,false,,,,,,,,,,,,,71056,,,60000,,83000,"71,056 [60,000 – 83,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,ZWE,Zimbabwe,Year,2016,false,,,,,,,,,,,,,740192,,,501000,,1009000,"740,192 [501,000 – 1,009,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,SUR,Suriname,Year,2016,false,,,,,,,,,,,,,76,,,,,,76,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,UGA,Uganda,Year,2016,false,,,,,,,,,,,,,8425793,,,5051000,,13370000,"8,425,793 [5,051,000 – 13,370,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,IRN,Iran (Islamic Republic of),Year,2016,false,,,,,,,,,,,,,81,,,,,,81,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,PAN,Panama,Year,2016,false,,,,,,,,,,,,,817,,,790,,870,817 [790 – 870],,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,SEN,Senegal,Year,2016,false,,,,,,,,,,,,,836561,,,574000,,1124000,"836,561 [574,000 – 1,124,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,SLB,Solomon Islands,Year,2016,false,,,,,,,,,,,,,84451,,,71000,,102000,"84,451 [71,000 – 102,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,ERI,Eritrea,Year,2016,false,,,,,,,,,,,,,86561,,,47000,,138000,"86,561 [47,000 – 138,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,DOM,Dominican Republic,Year,2016,false,,,,,,,,,,,,,896,,,760,,1000,"896 [760 – 1,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,LBR,Liberia,Year,2016,false,,,,,,,,,,,,,898524,,,417000,,1550000,"898,524 [417,000 – 1,550,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,MOZ,Mozambique,Year,2016,false,,,,,,,,,,,,,9753050,,,7163000,,13210000,"9,753,050 [7,163,000 – 13,210,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,DZA,Algeria,Year,2015,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,ARG,Argentina,Year,2015,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,ARM,Armenia,Year,2015,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,AZE,Azerbaijan,Year,2015,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,CRI,Costa Rica,Year,2015,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,EGY,Egypt,Year,2015,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,GEO,Georgia,Year,2015,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,IRQ,Iraq,Year,2015,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,KAZ,Kazakhstan,Year,2015,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,KGZ,Kyrgyzstan,Year,2015,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,MAR,Morocco,Year,2015,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,OMN,Oman,Year,2015,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,PRY,Paraguay,Year,2015,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,LKA,Sri Lanka,Year,2015,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,SYR,Syrian Arab Republic,Year,2015,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,TJK,Tajikistan,Year,2015,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,TUR,Turkey,Year,2015,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,TKM,Turkmenistan,Year,2015,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,ARE,United Arab Emirates,Year,2015,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,UZB,Uzbekistan,Year,2015,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,YEM,Yemen,Year,2015,false,,,,,,,,,,,,,1022338,,,606000,,4645000,"1,022,338 [606,000 – 4,645,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,COG,Congo,Year,2015,false,,,,,,,,,,,,,1044034,,,561000,,1718000,"1,044,034 [561,000 – 1,718,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,PNG,Papua New Guinea,Year,2015,false,,,,,,,,,,,,,1066533,,,736000,,1454000,"1,066,533 [736,000 – 1,454,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,ZWE,Zimbabwe,Year,2015,false,,,,,,,,,,,,,1081888,,,739000,,1465000,"1,081,888 [739,000 – 1,465,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,ZAF,South Africa,Year,2015,false,,,,,,,,,,,,,1157,,,,,,"1,157",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,SEN,Senegal,Year,2015,false,,,,,,,,,,,,,1176494,,,798000,,1591000,"1,176,494 [798,000 – 1,591,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,IDN,Indonesia,Year,2015,false,,,,,,,,,,,,,1284900,,,1038000,,1663000,"1,284,900 [1,038,000 – 1,663,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,COM,Comoros,Year,2015,false,,,,,,,,,,,,,1300,,,,,,"1,300",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,SDN,Sudan,Year,2015,false,,,,,,,,,,,,,1476591,,,873000,,2288000,"1,476,591 [873,000 – 2,288,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,CAF,Central African Republic,Year,2015,false,,,,,,,,,,,,,1758188,,,754000,,3277000,"1,758,188 [754,000 – 3,277,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,SSD,South Sudan,Year,2015,false,,,,,,,,,,,,,1805509,,,1081000,,2834000,"1,805,509 [1,081,000 – 2,834,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,BDI,Burundi,Year,2015,false,,,,,,,,,,,,,1957365,,,1186000,,3159000,"1,957,365 [1,186,000 – 3,159,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,GNB,Guinea-Bissau,Year,2015,false,,,,,,,,,,,,,106338,,,40000,,258000,"106,338 [40,000 – 258,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,VNM,Viet Nam,Year,2015,false,,,,,,,,,,,,,11283,,,10000,,12000,"11,283 [10,000 – 12,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,IND,India,Year,2015,false,,,,,,,,,,,,,12200000,,,9175000,,16200000,"12,200,000 [9,175,000 – 16,200,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,TLS,Timor-Leste,Year,2015,false,,,,,,,,,,,,,141,,,120,,160,141 [120 – 160],,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,SWZ,Eswatini,Year,2015,false,,,,,,,,,,,,,157,,,,,,157,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,BRA,Brazil,Year,2015,false,,,,,,,,,,,,,158963,,,143000,,172000,"158,963 [143,000 – 172,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,IRN,Iran (Islamic Republic of),Year,2015,false,,,,,,,,,,,,,167,,,,,,167,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,THA,Thailand,Year,2015,false,,,,,,,,,,,,,17427,,,,,,"17,427",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,GUY,Guyana,Year,2015,false,,,,,,,,,,,,,17848,,,13000,,24000,"17,848 [13,000 – 24,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,VEN,Venezuela (Bolivarian Republic of),Year,2015,false,,,,,,,,,,,,,172036,,,144000,,220000,"172,036 [144,000 – 220,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,SLV,El Salvador,Year,2015,false,,,,,,,,,,,,,2,,,,,,2,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,STP,Sao Tome and Principe,Year,2015,false,,,,,,,,,,,,,2058,,,,,,"2,058",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,TCD,Chad,Year,2015,false,,,,,,,,,,,,,2690084,,,1407000,,4633000,"2,690,084 [1,407,000 – 4,633,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,SLE,Sierra Leone,Year,2015,false,,,,,,,,,,,,,2727461,,,1860000,,4045000,"2,727,461 [1,860,000 – 4,045,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,TGO,Togo,Year,2015,false,,,,,,,,,,,,,2800982,,,1943000,,4129000,"2,800,982 [1,943,000 – 4,129,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,MDG,Madagascar,Year,2015,false,,,,,,,,,,,,,2840141,,,2078000,,3761000,"2,840,141 [2,078,000 – 3,761,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,NIC,Nicaragua,Year,2015,false,,,,,,,,,,,,,2853,,,2400,,3300,"2,853 [2,400 – 3,300]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,NAM,Namibia,Year,2015,false,,,,,,,,,,,,,20092,,,16000,,24000,"20,092 [16,000 – 24,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,KHM,Cambodia,Year,2015,false,,,,,,,,,,,,,224858,,,201000,,256000,"224,858 [201,000 – 256,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,COD,Democratic Republic of the Congo,Year,2015,false,,,,,,,,,,,,,24159871,,,15210000,,37230000,"24,159,871 [15,210,000 – 37,230,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,MYS,Malaysia,Year,2015,false,,,,,,,,,,,,,242,,,,,,242,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,MRT,Mauritania,Year,2015,false,,,,,,,,,,,,,249961,,,100000,,467000,"249,961 [100,000 – 467,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,PHL,Philippines,Year,2015,false,,,,,,,,,,,,,26726,,,20000,,35000,"26,726 [20,000 – 35,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,ZMB,Zambia,Year,2015,false,,,,,,,,,,,,,3347169,,,2398000,,4710000,"3,347,169 [2,398,000 – 4,710,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,CIV,Côte d’Ivoire,Year,2015,false,,,,,,,,,,,,,3395695,,,1860000,,5510000,"3,395,695 [1,860,000 – 5,510,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,KEN,Kenya,Year,2015,false,,,,,,,,,,,,,3455175,,,1921000,,5783000,"3,455,175 [1,921,000 – 5,783,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,ETH,Ethiopia,Year,2015,false,,,,,,,,,,,,,3632424,,,520000,,9265000,"3,632,424 [520,000 – 9,265,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,BEN,Benin,Year,2015,false,,,,,,,,,,,,,3787806,,,2518000,,6071000,"3,787,806 [2,518,000 – 6,071,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,RWA,Rwanda,Year,2015,false,,,,,,,,,,,,,3799535,,,2887000,,4747000,"3,799,535 [2,887,000 – 4,747,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,HTI,Haiti,Year,2015,false,,,,,,,,,,,,,31181,,,21000,,42000,"31,181 [21,000 – 42,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,GAB,Gabon,Year,2015,false,,,,,,,,,,,,,333155,,,143000,,631000,"333,155 [143,000 – 631,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,BTN,Bhutan,Year,2015,false,,,,,,,,,,,,,34,,,,,,34,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,AFG,Afghanistan,Year,2015,false,,,,,,,,,,,,,369809,,,247000,,524000,"369,809 [247,000 – 524,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,CHN,China,Year,2015,false,,,,,,,,,,,,,39,,,,,,39,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,SLB,Solomon Islands,Year,2015,false,,,,,,,,,,,,,39916,,,33000,,49000,"39,916 [33,000 – 49,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,NPL,Nepal,Year,2015,false,,,,,,,,,,,,,4084,,,2300,,8700,"4,084 [2,300 – 8,700]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,MWI,Malawi,Year,2015,false,,,,,,,,,,,,,4102579,,,2573000,,6068000,"4,102,579 [2,573,000 – 6,068,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,GIN,Guinea,Year,2015,false,,,,,,,,,,,,,4205085,,,2811000,,5957000,"4,205,085 [2,811,000 – 5,957,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,AGO,Angola,Year,2015,false,,,,,,,,,,,,,4303582,,,2882000,,6212000,"4,303,582 [2,882,000 – 6,212,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,HND,Honduras,Year,2015,false,,,,,,,,,,,,,4745,,,3800,,5800,"4,745 [3,800 – 5,800]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,GMB,Gambia,Year,2015,false,,,,,,,,,,,,,412588,,,333000,,501000,"412,588 [333,000 – 501,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,GNQ,Equatorial Guinea,Year,2015,false,,,,,,,,,,,,,418770,,,259000,,628000,"418,770 [259,000 – 628,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,MMR,Myanmar,Year,2015,false,,,,,,,,,,,,,425073,,,348000,,511000,"425,073 [348,000 – 511,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,BGD,Bangladesh,Year,2015,false,,,,,,,,,,,,,44948,,,41000,,49000,"44,948 [41,000 – 49,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,SOM,Somalia,Year,2015,false,,,,,,,,,,,,,514253,,,302000,,770000,"514,253 [302,000 – 770,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,MEX,Mexico,Year,2015,false,,,,,,,,,,,,,517,,,,,,517,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,BWA,Botswana,Year,2015,false,,,,,,,,,,,,,519,,,400,,730,519 [400 – 730],,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,NGA,Nigeria,Year,2015,false,,,,,,,,,,,,,52697962,,,35940000,,74500000,"52,697,962 [35,940,000 – 74,500,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,PAN,Panama,Year,2015,false,,,,,,,,,,,,,580,,,560,,620,580 [560 – 620],,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,TZA,United Republic of Tanzania,Year,2015,false,,,,,,,,,,,,,6085465,,,3870000,,9136000,"6,085,465 [3,870,000 – 9,136,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,MLI,Mali,Year,2015,false,,,,,,,,,,,,,6833022,,,4836000,,9683000,"6,833,022 [4,836,000 – 9,683,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,ECU,Ecuador,Year,2015,false,,,,,,,,,,,,,618,,,,,,618,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,KOR,Republic of Korea,Year,2015,false,,,,,,,,,,,,,627,,,,,,627,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,ERI,Eritrea,Year,2015,false,,,,,,,,,,,,,64176,,,41000,,89000,"64,176 [41,000 – 89,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,CPV,Cabo Verde,Year,2015,false,,,,,,,,,,,,,7,,,,,,7,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,CMR,Cameroon,Year,2015,false,,,,,,,,,,,,,7223417,,,4647000,,10940000,"7,223,417 [4,647,000 – 10,940,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,NER,Niger,Year,2015,false,,,,,,,,,,,,,7397212,,,3902000,,12230000,"7,397,212 [3,902,000 – 12,230,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,GHA,Ghana,Year,2015,false,,,,,,,,,,,,,7513657,,,4861000,,11440000,"7,513,657 [4,861,000 – 11,440,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,BFA,Burkina Faso,Year,2015,false,,,,,,,,,,,,,7770245,,,5534000,,11050000,"7,770,245 [5,534,000 – 11,050,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,COL,Colombia,Year,2015,false,,,,,,,,,,,,,72460,,,54000,,93000,"72,460 [54,000 – 93,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,DOM,Dominican Republic,Year,2015,false,,,,,,,,,,,,,751,,,660,,850,751 [660 – 850],,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,PRK,Democratic People's Republic of Korea,Year,2015,false,,,,,,,,,,,,,773,,,,,,773,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,VUT,Vanuatu,Year,2015,false,,,,,,,,,,,,,788,,,670,,940,788 [670 – 940],,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,LAO,Lao People's Democratic Republic,Year,2015,false,,,,,,,,,,,,,79592,,,60000,,103000,"79,592 [60,000 – 103,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,UGA,Uganda,Year,2015,false,,,,,,,,,,,,,8182789,,,4914000,,12970000,"8,182,789 [4,914,000 – 12,970,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,GTM,Guatemala,Year,2015,false,,,,,,,,,,,,,8621,,,7200,,11000,"8,621 [7,200 – 11,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,SUR,Suriname,Year,2015,false,,,,,,,,,,,,,81,,,,,,81,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,SAU,Saudi Arabia,Year,2015,false,,,,,,,,,,,,,83,,,,,,83,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,BLZ,Belize,Year,2015,false,,,,,,,,,,,,,9,,,,,,9,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,DJI,Djibouti,Year,2015,false,,,,,,,,,,,,,9473,,,,,,"9,473",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,MOZ,Mozambique,Year,2015,false,,,,,,,,,,,,,9496089,,,6976000,,12850000,"9,496,089 [6,976,000 – 12,850,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,BOL,Bolivia (Plurinational State of),Year,2015,false,,,,,,,,,,,,,9792,,,7300,,12000,"9,792 [7,300 – 12,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,LBR,Liberia,Year,2015,false,,,,,,,,,,,,,903748,,,427000,,1559000,"903,748 [427,000 – 1,559,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,PER,Peru,Year,2015,false,,,,,,,,,,,,,91640,,,77000,,108000,"91,640 [77,000 – 108,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,PAK,Pakistan,Year,2015,false,,,,,,,,,,,,,992605,,,533000,,2002000,"992,605 [533,000 – 2,002,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,DZA,Algeria,Year,2014,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,ARG,Argentina,Year,2014,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,ARM,Armenia,Year,2014,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,AZE,Azerbaijan,Year,2014,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,CRI,Costa Rica,Year,2014,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,GEO,Georgia,Year,2014,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,IRQ,Iraq,Year,2014,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,KAZ,Kazakhstan,Year,2014,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,KGZ,Kyrgyzstan,Year,2014,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,MAR,Morocco,Year,2014,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,OMN,Oman,Year,2014,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,PRY,Paraguay,Year,2014,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,LKA,Sri Lanka,Year,2014,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,SYR,Syrian Arab Republic,Year,2014,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,TUR,Turkey,Year,2014,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,TKM,Turkmenistan,Year,2014,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,ARE,United Arab Emirates,Year,2014,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,UZB,Uzbekistan,Year,2014,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,PAN,Panama,Year,2014,false,,,,,,,,,,,,,1016,,,960,,1100,"1,016 [960 – 1,100]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,COG,Congo,Year,2014,false,,,,,,,,,,,,,1017800,,,569000,,1712000,"1,017,800 [569,000 – 1,712,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,ZWE,Zimbabwe,Year,2014,false,,,,,,,,,,,,,1093731,,,812000,,1394000,"1,093,731 [812,000 – 1,394,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,YEM,Yemen,Year,2014,false,,,,,,,,,,,,,1168534,,,686000,,4710000,"1,168,534 [686,000 – 4,710,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,SDN,Sudan,Year,2014,false,,,,,,,,,,,,,1293793,,,789000,,2009000,"1,293,793 [789,000 – 2,009,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,MDG,Madagascar,Year,2014,false,,,,,,,,,,,,,1303958,,,940000,,1752000,"1,303,958 [940,000 – 1,752,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,PAK,Pakistan,Year,2014,false,,,,,,,,,,,,,1373352,,,747000,,2602000,"1,373,352 [747,000 – 2,602,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,NIC,Nicaragua,Year,2014,false,,,,,,,,,,,,,1430,,,1200,,1700,"1,430 [1,200 – 1,700]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,IDN,Indonesia,Year,2014,false,,,,,,,,,,,,,1492130,,,1204000,,1935000,"1,492,130 [1,204,000 – 1,935,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,SSD,South Sudan,Year,2014,false,,,,,,,,,,,,,1668785,,,970000,,2686000,"1,668,785 [970,000 – 2,686,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,BDI,Burundi,Year,2014,false,,,,,,,,,,,,,1688069,,,999000,,2680000,"1,688,069 [999,000 – 2,680,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,STP,Sao Tome and Principe,Year,2014,false,,,,,,,,,,,,,1754,,,,,,"1,754",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,CAF,Central African Republic,Year,2014,false,,,,,,,,,,,,,1786895,,,746000,,3255000,"1,786,895 [746,000 – 3,255,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,PNG,Papua New Guinea,Year,2014,false,,,,,,,,,,,,,1931287,,,1185000,,2926000,"1,931,287 [1,185,000 – 2,926,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,PRK,Democratic People's Republic of Korea,Year,2014,false,,,,,,,,,,,,,10535,,,,,,"10,535",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,GNB,Guinea-Bissau,Year,2014,false,,,,,,,,,,,,,103918,,,38000,,239000,"103,918 [38,000 – 239,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,LAO,Lao People's Democratic Republic,Year,2014,false,,,,,,,,,,,,,105109,,,79000,,136000,"105,109 [79,000 – 136,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,ERI,Eritrea,Year,2014,false,,,,,,,,,,,,,109689,,,70000,,153000,"109,689 [70,000 – 153,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,IND,India,Year,2014,false,,,,,,,,,,,,,11420000,,,8506000,,15510000,"11,420,000 [8,506,000 – 15,510,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,BOL,Bolivia (Plurinational State of),Year,2014,false,,,,,,,,,,,,,11512,,,8400,,15000,"11,512 [8,400 – 15,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,ZAF,South Africa,Year,2014,false,,,,,,,,,,,,,11705,,,,,,"11,705",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,VEN,Venezuela (Bolivarian Republic of),Year,2014,false,,,,,,,,,,,,,114404,,,96000,,148000,"114,404 [96,000 – 148,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,PHL,Philippines,Year,2014,false,,,,,,,,,,,,,14293,,,11000,,18000,"14,293 [11,000 – 18,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,BRA,Brazil,Year,2014,false,,,,,,,,,,,,,146675,,,141000,,156000,"146,675 [141,000 – 156,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,BLZ,Belize,Year,2014,false,,,,,,,,,,,,,19,,,,,,19,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,BTN,Bhutan,Year,2014,false,,,,,,,,,,,,,19,,,,,,19,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,VNM,Viet Nam,Year,2014,false,,,,,,,,,,,,,19060,,,18000,,21000,"19,060 [18,000 – 21,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,MRT,Mauritania,Year,2014,false,,,,,,,,,,,,,193933,,,69000,,376000,"193,933 [69,000 – 376,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,TJK,Tajikistan,Year,2014,false,,,,,,,,,,,,,2,,,,,,2,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,BWA,Botswana,Year,2014,false,,,,,,,,,,,,,2065,,,1600,,2900,"2,065 [1,600 – 2,900]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,COM,Comoros,Year,2014,false,,,,,,,,,,,,,2203,,,,,,"2,203",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,RWA,Rwanda,Year,2014,false,,,,,,,,,,,,,2405272,,,1826000,,3011000,"2,405,272 [1,826,000 – 3,011,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,VUT,Vanuatu,Year,2014,false,,,,,,,,,,,,,2431,,,1800,,3300,"2,431 [1,800 – 3,300]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,TGO,Togo,Year,2014,false,,,,,,,,,,,,,2626144,,,1814000,,3785000,"2,626,144 [1,814,000 – 3,785,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,SLE,Sierra Leone,Year,2014,false,,,,,,,,,,,,,2683566,,,1754000,,4004000,"2,683,566 [1,754,000 – 4,004,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,TCD,Chad,Year,2014,false,,,,,,,,,,,,,2797275,,,1513000,,4737000,"2,797,275 [1,513,000 – 4,737,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,EGY,Egypt,Year,2014,false,,,,,,,,,,,,,22,,,,,,22,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,GUY,Guyana,Year,2014,false,,,,,,,,,,,,,22085,,,17000,,30000,"22,085 [17,000 – 30,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,COD,Democratic Republic of the Congo,Year,2014,false,,,,,,,,,,,,,23031390,,,14630000,,35610000,"23,031,390 [14,630,000 – 35,610,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,ECU,Ecuador,Year,2014,false,,,,,,,,,,,,,242,,,,,,242,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,KHM,Cambodia,Year,2014,false,,,,,,,,,,,,,247065,,,221000,,281000,"247,065 [221,000 – 281,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,CPV,Cabo Verde,Year,2014,false,,,,,,,,,,,,,26,,,,,,26,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,NAM,Namibia,Year,2014,false,,,,,,,,,,,,,26278,,,21000,,32000,"26,278 [21,000 – 32,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,AFG,Afghanistan,Year,2014,false,,,,,,,,,,,,,284198,,,189000,,409000,"284,198 [189,000 – 409,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,GMB,Gambia,Year,2014,false,,,,,,,,,,,,,291528,,,235000,,354000,"291,528 [235,000 – 354,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,MYS,Malaysia,Year,2014,false,,,,,,,,,,,,,3147,,,,,,"3,147",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,BEN,Benin,Year,2014,false,,,,,,,,,,,,,3387590,,,2299000,,5154000,"3,387,590 [2,299,000 – 5,154,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,ZMB,Zambia,Year,2014,false,,,,,,,,,,,,,3534876,,,2468000,,4925000,"3,534,876 [2,468,000 – 4,925,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,CIV,Côte d’Ivoire,Year,2014,false,,,,,,,,,,,,,3592810,,,2104000,,5852000,"3,592,810 [2,104,000 – 5,852,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,AGO,Angola,Year,2014,false,,,,,,,,,,,,,3768087,,,2485000,,5526000,"3,768,087 [2,485,000 – 5,526,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,ETH,Ethiopia,Year,2014,false,,,,,,,,,,,,,3825848,,,430000,,10260000,"3,825,848 [430,000 – 10,260,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,KEN,Kenya,Year,2014,false,,,,,,,,,,,,,3916556,,,2205000,,6574000,"3,916,556 [2,205,000 – 6,574,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,SAU,Saudi Arabia,Year,2014,false,,,,,,,,,,,,,30,,,,,,30,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,SLB,Solomon Islands,Year,2014,false,,,,,,,,,,,,,30591,,,25000,,39000,"30,591 [25,000 – 39,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,HTI,Haiti,Year,2014,false,,,,,,,,,,,,,31950,,,22000,,43000,"31,950 [22,000 – 43,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,GAB,Gabon,Year,2014,false,,,,,,,,,,,,,341474,,,139000,,642000,"341,474 [139,000 – 642,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,IRN,Iran (Islamic Republic of),Year,2014,false,,,,,,,,,,,,,358,,,,,,358,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,THA,Thailand,Year,2014,false,,,,,,,,,,,,,37921,,,,,,"37,921",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,MWI,Malawi,Year,2014,false,,,,,,,,,,,,,4161861,,,2743000,,6007000,"4,161,861 [2,743,000 – 6,007,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,GIN,Guinea,Year,2014,false,,,,,,,,,,,,,4255458,,,2833000,,5892000,"4,255,458 [2,833,000 – 5,892,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,HND,Honduras,Year,2014,false,,,,,,,,,,,,,4484,,,3600,,5500,"4,484 [3,600 – 5,500]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,NPL,Nepal,Year,2014,false,,,,,,,,,,,,,4933,,,3100,,9700,"4,933 [3,100 – 9,700]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,SUR,Suriname,Year,2014,false,,,,,,,,,,,,,401,,,,,,401,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,GNQ,Equatorial Guinea,Year,2014,false,,,,,,,,,,,,,413388,,,252000,,626000,"413,388 [252,000 – 626,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,SOM,Somalia,Year,2014,false,,,,,,,,,,,,,430886,,,267000,,641000,"430,886 [267,000 – 641,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,MMR,Myanmar,Year,2014,false,,,,,,,,,,,,,480112,,,352000,,667000,"480,112 [352,000 – 667,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,TZA,United Republic of Tanzania,Year,2014,false,,,,,,,,,,,,,5927919,,,3724000,,8923000,"5,927,919 [3,724,000 – 8,923,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,BGD,Bangladesh,Year,2014,false,,,,,,,,,,,,,53948,,,49000,,59000,"53,948 [49,000 – 59,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,DOM,Dominican Republic,Year,2014,false,,,,,,,,,,,,,546,,,480,,620,546 [480 – 620],,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,KOR,Republic of Korea,Year,2014,false,,,,,,,,,,,,,557,,,,,,557,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,CHN,China,Year,2014,false,,,,,,,,,,,,,56,,,,,,56,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,COL,Colombia,Year,2014,false,,,,,,,,,,,,,56815,,,43000,,71000,"56,815 [43,000 – 71,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,TLS,Timor-Leste,Year,2014,false,,,,,,,,,,,,,567,,,480,,660,567 [480 – 660],,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,NGA,Nigeria,Year,2014,false,,,,,,,,,,,,,59365039,,,41180000,,81580000,"59,365,039 [41,180,000 – 81,580,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,SLV,El Salvador,Year,2014,false,,,,,,,,,,,,,6,,,,,,6,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,MEX,Mexico,Year,2014,false,,,,,,,,,,,,,656,,,,,,656,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,SEN,Senegal,Year,2014,false,,,,,,,,,,,,,673074,,,498000,,869000,"673,074 [498,000 – 869,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,UGA,Uganda,Year,2014,false,,,,,,,,,,,,,7040282,,,4174000,,11000000,"7,040,282 [4,174,000 – 11,000,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,GTM,Guatemala,Year,2014,false,,,,,,,,,,,,,7170,,,6000,,9200,"7,170 [6,000 – 9,200]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,CMR,Cameroon,Year,2014,false,,,,,,,,,,,,,7282873,,,4754000,,11060000,"7,282,873 [4,754,000 – 11,060,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,MLI,Mali,Year,2014,false,,,,,,,,,,,,,7468113,,,5359000,,10370000,"7,468,113 [5,359,000 – 10,370,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,NER,Niger,Year,2014,false,,,,,,,,,,,,,7700900,,,4169000,,12400000,"7,700,900 [4,169,000 – 12,400,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,SWZ,Eswatini,Year,2014,false,,,,,,,,,,,,,711,,,,,,711,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,GHA,Ghana,Year,2014,false,,,,,,,,,,,,,8113023,,,5384000,,12160000,"8,113,023 [5,384,000 – 12,160,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,BFA,Burkina Faso,Year,2014,false,,,,,,,,,,,,,8258938,,,5941000,,11230000,"8,258,938 [5,941,000 – 11,230,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,PER,Peru,Year,2014,false,,,,,,,,,,,,,81884,,,69000,,96000,"81,884 [69,000 – 96,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,LBR,Liberia,Year,2014,false,,,,,,,,,,,,,877199,,,421000,,1502000,"877,199 [421,000 – 1,502,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,MOZ,Mozambique,Year,2014,false,,,,,,,,,,,,,9425097,,,6967000,,12880000,"9,425,097 [6,967,000 – 12,880,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,DJI,Djibouti,Year,2014,false,,,,,,,,,,,,,9439,,,,,,"9,439",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,ARG,Argentina,Year,2013,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,ARM,Armenia,Year,2013,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,AZE,Azerbaijan,Year,2013,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,CRI,Costa Rica,Year,2013,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,EGY,Egypt,Year,2013,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,GEO,Georgia,Year,2013,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,IRQ,Iraq,Year,2013,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,KAZ,Kazakhstan,Year,2013,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,KGZ,Kyrgyzstan,Year,2013,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,MAR,Morocco,Year,2013,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,OMN,Oman,Year,2013,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,PRY,Paraguay,Year,2013,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,LKA,Sri Lanka,Year,2013,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,SYR,Syrian Arab Republic,Year,2013,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,TUR,Turkey,Year,2013,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,TKM,Turkmenistan,Year,2013,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,ARE,United Arab Emirates,Year,2013,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,UZB,Uzbekistan,Year,2013,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,SDN,Sudan,Year,2013,false,,,,,,,,,,,,,1115132,,,683000,,1694000,"1,115,132 [683,000 – 1,694,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,SEN,Senegal,Year,2013,false,,,,,,,,,,,,,1126085,,,782000,,1484000,"1,126,085 [782,000 – 1,484,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,RWA,Rwanda,Year,2013,false,,,,,,,,,,,,,1304560,,,1093000,,1531000,"1,304,560 [1,093,000 – 1,531,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,PAK,Pakistan,Year,2013,false,,,,,,,,,,,,,1419225,,,762000,,2687000,"1,419,225 [762,000 – 2,687,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,NIC,Nicaragua,Year,2013,false,,,,,,,,,,,,,1455,,,1200,,1700,"1,455 [1,200 – 1,700]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,BDI,Burundi,Year,2013,false,,,,,,,,,,,,,1539318,,,911000,,2416000,"1,539,318 [911,000 – 2,416,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,PNG,Papua New Guinea,Year,2013,false,,,,,,,,,,,,,1677722,,,956000,,2546000,"1,677,722 [956,000 – 2,546,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,DJI,Djibouti,Year,2013,false,,,,,,,,,,,,,1684,,,,,,"1,684",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,SSD,South Sudan,Year,2013,false,,,,,,,,,,,,,1707171,,,1007000,,2741000,"1,707,171 [1,007,000 – 2,741,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,TLS,Timor-Leste,Year,2013,false,,,,,,,,,,,,,1709,,,1500,,2000,"1,709 [1,500 – 2,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,MDG,Madagascar,Year,2013,false,,,,,,,,,,,,,1813487,,,1184000,,2781000,"1,813,487 [1,184,000 – 2,781,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,CAF,Central African Republic,Year,2013,false,,,,,,,,,,,,,1885599,,,804000,,3320000,"1,885,599 [804,000 – 3,320,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,NPL,Nepal,Year,2013,false,,,,,,,,,,,,,10326,,,7200,,18000,"10,326 [7,200 – 18,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,GNB,Guinea-Bissau,Year,2013,false,,,,,,,,,,,,,102461,,,39000,,216000,"102,461 [39,000 – 216,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,IND,India,Year,2013,false,,,,,,,,,,,,,11210000,,,8306000,,15110000,"11,210,000 [8,306,000 – 15,110,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,BOL,Bolivia (Plurinational State of),Year,2013,false,,,,,,,,,,,,,11356,,,8300,,15000,"11,356 [8,300 – 15,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,MRT,Mauritania,Year,2013,false,,,,,,,,,,,,,127145,,,38000,,263000,"127,145 [38,000 – 263,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,PRK,Democratic People's Republic of Korea,Year,2013,false,,,,,,,,,,,,,14407,,,,,,"14,407",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,BTN,Bhutan,Year,2013,false,,,,,,,,,,,,,15,,,,,,15,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,PHL,Philippines,Year,2013,false,,,,,,,,,,,,,17718,,,13000,,22000,"17,718 [13,000 – 22,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,KHM,Cambodia,Year,2013,false,,,,,,,,,,,,,173259,,,155000,,196000,"173,259 [155,000 – 196,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,BRA,Brazil,Year,2013,false,,,,,,,,,,,,,194191,,,175000,,211000,"194,191 [175,000 – 211,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,IDN,Indonesia,Year,2013,false,,,,,,,,,,,,,2033858,,,1643000,,2632000,"2,033,858 [1,643,000 – 2,632,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,TGO,Togo,Year,2013,false,,,,,,,,,,,,,2484119,,,1690000,,3568000,"2,484,119 [1,690,000 – 3,568,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,SLE,Sierra Leone,Year,2013,false,,,,,,,,,,,,,2717309,,,1808000,,4035000,"2,717,309 [1,808,000 – 4,035,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,MYS,Malaysia,Year,2013,false,,,,,,,,,,,,,2921,,,,,,"2,921",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,TCD,Chad,Year,2013,false,,,,,,,,,,,,,2947833,,,1699000,,4685000,"2,947,833 [1,699,000 – 4,685,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,BLZ,Belize,Year,2013,false,,,,,,,,,,,,,20,,,,,,20,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,VNM,Viet Nam,Year,2013,false,,,,,,,,,,,,,20760,,,19000,,23000,"20,760 [19,000 – 23,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,AFG,Afghanistan,Year,2013,false,,,,,,,,,,,,,213914,,,118000,,352000,"213,914 [118,000 – 352,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,CPV,Cabo Verde,Year,2013,false,,,,,,,,,,,,,22,,,,,,22,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,COD,Democratic Republic of the Congo,Year,2013,false,,,,,,,,,,,,,22488362,,,14430000,,34870000,"22,488,362 [14,430,000 – 34,870,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,BGD,Bangladesh,Year,2013,false,,,,,,,,,,,,,25019,,,22000,,28000,"25,019 [22,000 – 28,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,TJK,Tajikistan,Year,2013,false,,,,,,,,,,,,,3,,,,,,3,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,BEN,Benin,Year,2013,false,,,,,,,,,,,,,3219441,,,2175000,,4744000,"3,219,441 [2,175,000 – 4,744,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,ZMB,Zambia,Year,2013,false,,,,,,,,,,,,,3355470,,,2292000,,4698000,"3,355,470 [2,292,000 – 4,698,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,AGO,Angola,Year,2013,false,,,,,,,,,,,,,3384997,,,2191000,,4970000,"3,384,997 [2,191,000 – 4,970,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,KEN,Kenya,Year,2013,false,,,,,,,,,,,,,3754660,,,2110000,,6328000,"3,754,660 [2,110,000 – 6,328,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,THA,Thailand,Year,2013,false,,,,,,,,,,,,,33302,,,,,,"33,302",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,GAB,Gabon,Year,2013,false,,,,,,,,,,,,,339163,,,134000,,622000,"339,163 [134,000 – 622,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,SAU,Saudi Arabia,Year,2013,false,,,,,,,,,,,,,34,,,,,,34,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,SOM,Somalia,Year,2013,false,,,,,,,,,,,,,366378,,,222000,,544000,"366,378 [222,000 – 544,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,ECU,Ecuador,Year,2013,false,,,,,,,,,,,,,368,,,,,,368,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,KOR,Republic of Korea,Year,2013,false,,,,,,,,,,,,,383,,,,,,383,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,MWI,Malawi,Year,2013,false,,,,,,,,,,,,,4169285,,,2817000,,6014000,"4,169,285 [2,817,000 – 6,014,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,CIV,Côte d’Ivoire,Year,2013,false,,,,,,,,,,,,,4332409,,,2601000,,6860000,"4,332,409 [2,601,000 – 6,860,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,GIN,Guinea,Year,2013,false,,,,,,,,,,,,,4344956,,,3003000,,5922000,"4,344,956 [3,003,000 – 5,922,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,GMB,Gambia,Year,2013,false,,,,,,,,,,,,,471968,,,377000,,575000,"471,968 [377,000 – 575,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,IRN,Iran (Islamic Republic of),Year,2013,false,,,,,,,,,,,,,479,,,,,,479,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,HTI,Haiti,Year,2013,false,,,,,,,,,,,,,48004,,,30000,,73000,"48,004 [30,000 – 73,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,ERI,Eritrea,Year,2013,false,,,,,,,,,,,,,49309,,,31000,,70000,"49,309 [31,000 – 70,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,MEX,Mexico,Year,2013,false,,,,,,,,,,,,,495,,,,,,495,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,GNQ,Equatorial Guinea,Year,2013,false,,,,,,,,,,,,,496542,,,308000,,725000,"496,542 [308,000 – 725,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,ETH,Ethiopia,Year,2013,false,,,,,,,,,,,,,5173952,,,420000,,21680000,"5,173,952 [420,000 – 21,680,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,VUT,Vanuatu,Year,2013,false,,,,,,,,,,,,,5334,,,4000,,7200,"5,334 [4,000 – 7,200]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,TZA,United Republic of Tanzania,Year,2013,false,,,,,,,,,,,,,5792430,,,3646000,,8693000,"5,792,430 [3,646,000 – 8,693,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,COM,Comoros,Year,2013,false,,,,,,,,,,,,,53156,,,,,,"53,156",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,SLB,Solomon Islands,Year,2013,false,,,,,,,,,,,,,53689,,,40000,,75000,"53,689 [40,000 – 75,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,GUY,Guyana,Year,2013,false,,,,,,,,,,,,,56946,,,43000,,78000,"56,946 [43,000 – 78,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,SLV,El Salvador,Year,2013,false,,,,,,,,,,,,,6,,,,,,6,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,CMR,Cameroon,Year,2013,false,,,,,,,,,,,,,6960282,,,4546000,,10510000,"6,960,282 [4,546,000 – 10,510,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,PER,Peru,Year,2013,false,,,,,,,,,,,,,61137,,,51000,,72000,"61,137 [51,000 – 72,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,NGA,Nigeria,Year,2013,false,,,,,,,,,,,,,62020888,,,43310000,,84840000,"62,020,888 [43,310,000 – 84,840,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,HND,Honduras,Year,2013,false,,,,,,,,,,,,,7205,,,5700,,8800,"7,205 [5,700 – 8,800]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,UGA,Uganda,Year,2013,false,,,,,,,,,,,,,7407982,,,4431000,,11680000,"7,407,982 [4,431,000 – 11,680,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,MLI,Mali,Year,2013,false,,,,,,,,,,,,,7448756,,,5311000,,10230000,"7,448,756 [5,311,000 – 10,230,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,NER,Niger,Year,2013,false,,,,,,,,,,,,,7780901,,,4452000,,12230000,"7,780,901 [4,452,000 – 12,230,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,GTM,Guatemala,Year,2013,false,,,,,,,,,,,,,7886,,,6600,,10000,"7,886 [6,600 – 10,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,YEM,Yemen,Year,2013,false,,,,,,,,,,,,,707544,,,507000,,1009000,"707,544 [507,000 – 1,009,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,MMR,Myanmar,Year,2013,false,,,,,,,,,,,,,709051,,,529000,,978000,"709,051 [529,000 – 978,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,COL,Colombia,Year,2013,false,,,,,,,,,,,,,72044,,,55000,,90000,"72,044 [55,000 – 90,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,DOM,Dominican Republic,Year,2013,false,,,,,,,,,,,,,720,,,610,,840,720 [610 – 840],,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,BWA,Botswana,Year,2013,false,,,,,,,,,,,,,725,,,570,,1000,"725 [570 – 1,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,SUR,Suriname,Year,2013,false,,,,,,,,,,,,,729,,,,,,729,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,PAN,Panama,Year,2013,false,,,,,,,,,,,,,758,,,730,,810,758 [730 – 810],,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,DZA,Algeria,Year,2013,false,,,,,,,,,,,,,8,,,,,,8,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,NAM,Namibia,Year,2013,false,,,,,,,,,,,,,8109,,,6500,,9900,"8,109 [6,500 – 9,900]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,GHA,Ghana,Year,2013,false,,,,,,,,,,,,,8552123,,,5764000,,12670000,"8,552,123 [5,764,000 – 12,670,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,ZAF,South Africa,Year,2013,false,,,,,,,,,,,,,8645,,,,,,"8,645",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,BFA,Burkina Faso,Year,2013,false,,,,,,,,,,,,,8736057,,,6232000,,11820000,"8,736,057 [6,232,000 – 11,820,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,LAO,Lao People's Democratic Republic,Year,2013,false,,,,,,,,,,,,,80695,,,60000,,104000,"80,695 [60,000 – 104,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,CHN,China,Year,2013,false,,,,,,,,,,,,,86,,,,,,86,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,ZWE,Zimbabwe,Year,2013,false,,,,,,,,,,,,,863883,,,617000,,1122000,"863,883 [617,000 – 1,122,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,STP,Sao Tome and Principe,Year,2013,false,,,,,,,,,,,,,9243,,,,,,"9,243",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,MOZ,Mozambique,Year,2013,false,,,,,,,,,,,,,9644363,,,7129000,,13080000,"9,644,363 [7,129,000 – 13,080,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,LBR,Liberia,Year,2013,false,,,,,,,,,,,,,907189,,,483000,,1425000,"907,189 [483,000 – 1,425,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,SWZ,Eswatini,Year,2013,false,,,,,,,,,,,,,962,,,,,,962,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,COG,Congo,Year,2013,false,,,,,,,,,,,,,975903,,,562000,,1638000,"975,903 [562,000 – 1,638,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,VEN,Venezuela (Bolivarian Republic of),Year,2013,false,,,,,,,,,,,,,99809,,,83000,,129000,"99,809 [83,000 – 129,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,ARG,Argentina,Year,2012,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,ARM,Armenia,Year,2012,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,BTN,Bhutan,Year,2012,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,EGY,Egypt,Year,2012,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,GEO,Georgia,Year,2012,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,IRQ,Iraq,Year,2012,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,KAZ,Kazakhstan,Year,2012,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,KGZ,Kyrgyzstan,Year,2012,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,MAR,Morocco,Year,2012,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,OMN,Oman,Year,2012,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,PRY,Paraguay,Year,2012,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,SYR,Syrian Arab Republic,Year,2012,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,TUR,Turkey,Year,2012,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,TKM,Turkmenistan,Year,2012,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,ARE,United Arab Emirates,Year,2012,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,UZB,Uzbekistan,Year,2012,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,CPV,Cabo Verde,Year,2012,false,,,,,,,,,,,,,1,,,,,,1,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,LBR,Liberia,Year,2012,false,,,,,,,,,,,,,1033327,,,617000,,1648000,"1,033,327 [617,000 – 1,648,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,DOM,Dominican Republic,Year,2012,false,,,,,,,,,,,,,1185,,,1000,,1400,"1,185 [1,000 – 1,400]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,PNG,Papua New Guinea,Year,2012,false,,,,,,,,,,,,,1414839,,,503000,,2815000,"1,414,839 [503,000 – 2,815,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,BDI,Burundi,Year,2012,false,,,,,,,,,,,,,1501315,,,900000,,2373000,"1,501,315 [900,000 – 2,373,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,NIC,Nicaragua,Year,2012,false,,,,,,,,,,,,,1546,,,1300,,1800,"1,546 [1,300 – 1,800]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,PAK,Pakistan,Year,2012,false,,,,,,,,,,,,,1652576,,,796000,,3282000,"1,652,576 [796,000 – 3,282,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,SSD,South Sudan,Year,2012,false,,,,,,,,,,,,,1818297,,,1122000,,2834000,"1,818,297 [1,122,000 – 2,834,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,MDG,Madagascar,Year,2012,false,,,,,,,,,,,,,1824487,,,1126000,,2899000,"1,824,487 [1,126,000 – 2,899,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,MMR,Myanmar,Year,2012,false,,,,,,,,,,,,,1898175,,,1375000,,2730000,"1,898,175 [1,375,000 – 2,730,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,GNB,Guinea-Bissau,Year,2012,false,,,,,,,,,,,,,102959,,,46000,,190000,"102,959 [46,000 – 190,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,MRT,Mauritania,Year,2012,false,,,,,,,,,,,,,105626,,,24000,,234000,"105,626 [24,000 – 234,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,BOL,Bolivia (Plurinational State of),Year,2012,false,,,,,,,,,,,,,11534,,,8400,,15000,"11,534 [8,400 – 15,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,STP,Sao Tome and Principe,Year,2012,false,,,,,,,,,,,,,12550,,,,,,"12,550",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,SLV,El Salvador,Year,2012,false,,,,,,,,,,,,,13,,,,,,13,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,NPL,Nepal,Year,2012,false,,,,,,,,,,,,,13227,,,8300,,27000,"13,227 [8,300 – 27,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,IND,India,Year,2012,false,,,,,,,,,,,,,14220000,,,10490000,,19450000,"14,220,000 [10,490,000 – 19,450,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,TJK,Tajikistan,Year,2012,false,,,,,,,,,,,,,18,,,,,,18,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,PHL,Philippines,Year,2012,false,,,,,,,,,,,,,19379,,,14000,,25000,"19,379 [14,000 – 25,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,CAF,Central African Republic,Year,2012,false,,,,,,,,,,,,,2023795,,,881000,,3485000,"2,023,795 [881,000 – 3,485,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,TGO,Togo,Year,2012,false,,,,,,,,,,,,,2399812,,,1634000,,3435000,"2,399,812 [1,634,000 – 3,435,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,IDN,Indonesia,Year,2012,false,,,,,,,,,,,,,2473705,,,1994000,,3214000,"2,473,705 [1,994,000 – 3,214,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,ZMB,Zambia,Year,2012,false,,,,,,,,,,,,,2681660,,,1807000,,3828000,"2,681,660 [1,807,000 – 3,828,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,SLE,Sierra Leone,Year,2012,false,,,,,,,,,,,,,2849037,,,1799000,,4171000,"2,849,037 [1,799,000 – 4,171,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,PRK,Democratic People's Republic of Korea,Year,2012,false,,,,,,,,,,,,,21850,,,,,,"21,850",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,COD,Democratic Republic of the Congo,Year,2012,false,,,,,,,,,,,,,22281939,,,14450000,,34250000,"22,281,939 [14,450,000 – 34,250,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,LKA,Sri Lanka,Year,2012,false,,,,,,,,,,,,,23,,,,,,23,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,VNM,Viet Nam,Year,2012,false,,,,,,,,,,,,,23838,,,22000,,27000,"23,838 [22,000 – 27,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,CHN,China,Year,2012,false,,,,,,,,,,,,,244,,,,,,244,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,DJI,Djibouti,Year,2012,false,,,,,,,,,,,,,25,,,,,,25,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,BRA,Brazil,Year,2012,false,,,,,,,,,,,,,255662,,,246000,,273000,"255,662 [246,000 – 273,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,KHM,Cambodia,Year,2012,false,,,,,,,,,,,,,266576,,,239000,,300000,"266,576 [239,000 – 300,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,AFG,Afghanistan,Year,2012,false,,,,,,,,,,,,,278223,,,134000,,472000,"278,223 [134,000 – 472,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,AZE,Azerbaijan,Year,2012,false,,,,,,,,,,,,,3,,,,,,3,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,AGO,Angola,Year,2012,false,,,,,,,,,,,,,3111760,,,1964000,,4531000,"3,111,760 [1,964,000 – 4,531,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,KEN,Kenya,Year,2012,false,,,,,,,,,,,,,3252855,,,1862000,,5394000,"3,252,855 [1,862,000 – 5,394,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,TCD,Chad,Year,2012,false,,,,,,,,,,,,,3296088,,,2209000,,4858000,"3,296,088 [2,209,000 – 4,858,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,BEN,Benin,Year,2012,false,,,,,,,,,,,,,3307673,,,2272000,,4869000,"3,307,673 [2,272,000 – 4,869,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,MYS,Malaysia,Year,2012,false,,,,,,,,,,,,,3662,,,,,,"3,662",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,BWA,Botswana,Year,2012,false,,,,,,,,,,,,,302,,,230,,430,302 [230 – 430],,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,SOM,Somalia,Year,2012,false,,,,,,,,,,,,,310864,,,187000,,454000,"310,864 [187,000 – 454,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,THA,Thailand,Year,2012,false,,,,,,,,,,,,,32569,,,,,,"32,569",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,GAB,Gabon,Year,2012,false,,,,,,,,,,,,,326053,,,145000,,584000,"326,053 [145,000 – 584,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,BLZ,Belize,Year,2012,false,,,,,,,,,,,,,33,,,,,,33,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,BGD,Bangladesh,Year,2012,false,,,,,,,,,,,,,35333,,,31000,,40000,"35,333 [31,000 – 40,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,SUR,Suriname,Year,2012,false,,,,,,,,,,,,,356,,,,,,356,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,PER,Peru,Year,2012,false,,,,,,,,,,,,,39448,,,33000,,46000,"39,448 [33,000 – 46,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,KOR,Republic of Korea,Year,2012,false,,,,,,,,,,,,,394,,,,,,394,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,MWI,Malawi,Year,2012,false,,,,,,,,,,,,,4317650,,,2969000,,6244000,"4,317,650 [2,969,000 – 6,244,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,GIN,Guinea,Year,2012,false,,,,,,,,,,,,,4452801,,,3251000,,6051000,"4,452,801 [3,251,000 – 6,051,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,GUY,Guyana,Year,2012,false,,,,,,,,,,,,,43311,,,35000,,53000,"43,311 [35,000 – 53,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,COM,Comoros,Year,2012,false,,,,,,,,,,,,,49840,,,,,,"49,840",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,GNQ,Equatorial Guinea,Year,2012,false,,,,,,,,,,,,,490132,,,308000,,709000,"490,132 [308,000 – 709,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,ETH,Ethiopia,Year,2012,false,,,,,,,,,,,,,5237442,,,424000,,22450000,"5,237,442 [424,000 – 22,450,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,ZAF,South Africa,Year,2012,false,,,,,,,,,,,,,5629,,,,,,"5,629",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,TZA,United Republic of Tanzania,Year,2012,false,,,,,,,,,,,,,5851532,,,3638000,,8761000,"5,851,532 [3,638,000 – 8,761,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,NAM,Namibia,Year,2012,false,,,,,,,,,,,,,5884,,,2700,,9700,"5,884 [2,700 – 9,700]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,CIV,Côte d’Ivoire,Year,2012,false,,,,,,,,,,,,,5908246,,,3700000,,9477000,"5,908,246 [3,700,000 – 9,477,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,SLB,Solomon Islands,Year,2012,false,,,,,,,,,,,,,52221,,,38000,,74000,"52,221 [38,000 – 74,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,ERI,Eritrea,Year,2012,false,,,,,,,,,,,,,52483,,,33000,,75000,"52,483 [33,000 – 75,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,GMB,Gambia,Year,2012,false,,,,,,,,,,,,,531834,,,434000,,638000,"531,834 [434,000 – 638,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,ECU,Ecuador,Year,2012,false,,,,,,,,,,,,,544,,,,,,544,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,DZA,Algeria,Year,2012,false,,,,,,,,,,,,,55,,,,,,55,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,SWZ,Eswatini,Year,2012,false,,,,,,,,,,,,,562,,,,,,562,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,HTI,Haiti,Year,2012,false,,,,,,,,,,,,,58234,,,36000,,89000,"58,234 [36,000 – 89,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,ZWE,Zimbabwe,Year,2012,false,,,,,,,,,,,,,592186,,,408000,,791000,"592,186 [408,000 – 791,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,CRI,Costa Rica,Year,2012,false,,,,,,,,,,,,,6,,,,,,6,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,CMR,Cameroon,Year,2012,false,,,,,,,,,,,,,6168031,,,4057000,,9447000,"6,168,031 [4,057,000 – 9,447,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,GTM,Guatemala,Year,2012,false,,,,,,,,,,,,,6793,,,5600,,8800,"6,793 [5,600 – 8,800]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,MLI,Mali,Year,2012,false,,,,,,,,,,,,,6961475,,,4944000,,9445000,"6,961,475 [4,944,000 – 9,445,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,NGA,Nigeria,Year,2012,false,,,,,,,,,,,,,61587135,,,43510000,,83800000,"61,587,135 [43,510,000 – 83,800,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,VEN,Venezuela (Bolivarian Republic of),Year,2012,false,,,,,,,,,,,,,67122,,,56000,,86000,"67,122 [56,000 – 86,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,NER,Niger,Year,2012,false,,,,,,,,,,,,,7660985,,,4461000,,11860000,"7,660,985 [4,461,000 – 11,860,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,TLS,Timor-Leste,Year,2012,false,,,,,,,,,,,,,7821,,,6600,,9100,"7,821 [6,600 – 9,100]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,RWA,Rwanda,Year,2012,false,,,,,,,,,,,,,748975,,,596000,,911000,"748,975 [596,000 – 911,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,IRN,Iran (Islamic Republic of),Year,2012,false,,,,,,,,,,,,,756,,,,,,756,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,VUT,Vanuatu,Year,2012,false,,,,,,,,,,,,,8408,,,6400,,12000,"8,408 [6,400 – 12,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,HND,Honduras,Year,2012,false,,,,,,,,,,,,,8544,,,6800,,10000,"8,544 [6,800 – 10,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,SAU,Saudi Arabia,Year,2012,false,,,,,,,,,,,,,82,,,,,,82,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,COL,Colombia,Year,2012,false,,,,,,,,,,,,,83866,,,64000,,105000,"83,866 [64,000 – 105,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,MEX,Mexico,Year,2012,false,,,,,,,,,,,,,833,,,,,,833,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,SEN,Senegal,Year,2012,false,,,,,,,,,,,,,835134,,,570000,,1128000,"835,134 [570,000 – 1,128,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,YEM,Yemen,Year,2012,false,,,,,,,,,,,,,849989,,,578000,,1295000,"849,989 [578,000 – 1,295,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,PAN,Panama,Year,2012,false,,,,,,,,,,,,,896,,,860,,960,896 [860 – 960],,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,GHA,Ghana,Year,2012,false,,,,,,,,,,,,,9004550,,,6128000,,13160000,"9,004,550 [6,128,000 – 13,160,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,UGA,Uganda,Year,2012,false,,,,,,,,,,,,,9074100,,,5816000,,14490000,"9,074,100 [5,816,000 – 14,490,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,BFA,Burkina Faso,Year,2012,false,,,,,,,,,,,,,9228345,,,6569000,,12300000,"9,228,345 [6,569,000 – 12,300,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,MOZ,Mozambique,Year,2012,false,,,,,,,,,,,,,9576806,,,7090000,,12950000,"9,576,806 [7,090,000 – 12,950,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,COG,Congo,Year,2012,false,,,,,,,,,,,,,916492,,,537000,,1538000,"916,492 [537,000 – 1,538,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,LAO,Lao People's Democratic Republic,Year,2012,false,,,,,,,,,,,,,98137,,,73000,,126000,"98,137 [73,000 – 126,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,SDN,Sudan,Year,2012,false,,,,,,,,,,,,,993585,,,631000,,1493000,"993,585 [631,000 – 1,493,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,ARG,Argentina,Year,2011,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,ARM,Armenia,Year,2011,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,DJI,Djibouti,Year,2011,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,EGY,Egypt,Year,2011,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,GEO,Georgia,Year,2011,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,IRQ,Iraq,Year,2011,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,KAZ,Kazakhstan,Year,2011,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,KGZ,Kyrgyzstan,Year,2011,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,MAR,Morocco,Year,2011,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,OMN,Oman,Year,2011,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,SYR,Syrian Arab Republic,Year,2011,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,TUR,Turkey,Year,2011,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,TKM,Turkmenistan,Year,2011,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,ARE,United Arab Emirates,Year,2011,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,UZB,Uzbekistan,Year,2011,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,DZA,Algeria,Year,2011,false,,,,,,,,,,,,,1,,,,,,1,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,PRY,Paraguay,Year,2011,false,,,,,,,,,,,,,1,,,,,,1,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,PNG,Papua New Guinea,Year,2011,false,,,,,,,,,,,,,1045967,,,388000,,1806000,"1,045,967 [388,000 – 1,806,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,MEX,Mexico,Year,2011,false,,,,,,,,,,,,,1124,,,,,,"1,124",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,NIC,Nicaragua,Year,2011,false,,,,,,,,,,,,,1158,,,970,,1400,"1,158 [970 – 1,400]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,ECU,Ecuador,Year,2011,false,,,,,,,,,,,,,1219,,,,,,"1,219",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,LBR,Liberia,Year,2011,false,,,,,,,,,,,,,1253129,,,785000,,2007000,"1,253,129 [785,000 – 2,007,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,MMR,Myanmar,Year,2011,false,,,,,,,,,,,,,1322336,,,1036000,,1724000,"1,322,336 [1,036,000 – 1,724,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,BDI,Burundi,Year,2011,false,,,,,,,,,,,,,1546912,,,916000,,2506000,"1,546,912 [916,000 – 2,506,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,IRN,Iran (Islamic Republic of),Year,2011,false,,,,,,,,,,,,,1632,,,,,,"1,632",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,PAK,Pakistan,Year,2011,false,,,,,,,,,,,,,1905938,,,933000,,3682000,"1,905,938 [933,000 – 3,682,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,SSD,South Sudan,Year,2011,false,,,,,,,,,,,,,1939487,,,1248000,,2904000,"1,939,487 [1,248,000 – 2,904,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,CRI,Costa Rica,Year,2011,false,,,,,,,,,,,,,10,,,,,,10,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,BOL,Bolivia (Plurinational State of),Year,2011,false,,,,,,,,,,,,,10175,,,7600,,13000,"10,175 [7,600 – 13,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,UGA,Uganda,Year,2011,false,,,,,,,,,,,,,10686032,,,7124000,,16720000,"10,686,032 [7,124,000 – 16,720,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,BGD,Bangladesh,Year,2011,false,,,,,,,,,,,,,102302,,,88000,,118000,"102,302 [88,000 – 118,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,VUT,Vanuatu,Year,2011,false,,,,,,,,,,,,,11651,,,8800,,16000,"11,651 [8,800 – 16,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,GNB,Guinea-Bissau,Year,2011,false,,,,,,,,,,,,,113666,,,56000,,192000,"113,666 [56,000 – 192,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,LKA,Sri Lanka,Year,2011,false,,,,,,,,,,,,,124,,,,,,124,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,PRK,Democratic People's Republic of Korea,Year,2011,false,,,,,,,,,,,,,16760,,,,,,"16,760",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,IND,India,Year,2011,false,,,,,,,,,,,,,17520000,,,12760000,,23930000,"17,520,000 [12,760,000 – 23,930,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,MRT,Mauritania,Year,2011,false,,,,,,,,,,,,,171669,,,43000,,357000,"171,669 [43,000 – 357,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,DOM,Dominican Republic,Year,2011,false,,,,,,,,,,,,,2010,,,1700,,2300,"2,010 [1,700 – 2,300]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,CAF,Central African Republic,Year,2011,false,,,,,,,,,,,,,2118745,,,1003000,,3588000,"2,118,745 [1,003,000 – 3,588,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,ZMB,Zambia,Year,2011,false,,,,,,,,,,,,,2298064,,,1550000,,3291000,"2,298,064 [1,550,000 – 3,291,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,TGO,Togo,Year,2011,false,,,,,,,,,,,,,2350507,,,1593000,,3322000,"2,350,507 [1,593,000 – 3,322,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,IDN,Indonesia,Year,2011,false,,,,,,,,,,,,,2488590,,,2013000,,3226000,"2,488,590 [2,013,000 – 3,226,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,KEN,Kenya,Year,2011,false,,,,,,,,,,,,,2930265,,,1701000,,4797000,"2,930,265 [1,701,000 – 4,797,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,VNM,Viet Nam,Year,2011,false,,,,,,,,,,,,,20206,,,19000,,23000,"20,206 [19,000 – 23,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,COD,Democratic Republic of the Congo,Year,2011,false,,,,,,,,,,,,,22535174,,,14950000,,34200000,"22,535,174 [14,950,000 – 34,200,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,BTN,Bhutan,Year,2011,false,,,,,,,,,,,,,228,,,,,,228,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,NPL,Nepal,Year,2011,false,,,,,,,,,,,,,24062,,,15000,,45000,"24,062 [15,000 – 45,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,PHL,Philippines,Year,2011,false,,,,,,,,,,,,,24222,,,18000,,31000,"24,222 [18,000 – 31,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,COM,Comoros,Year,2011,false,,,,,,,,,,,,,24856,,,,,,"24,856",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,THA,Thailand,Year,2011,false,,,,,,,,,,,,,24897,,,,,,"24,897",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,BRA,Brazil,Year,2011,false,,,,,,,,,,,,,281346,,,271000,,300000,"281,346 [271,000 – 300,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,SLE,Sierra Leone,Year,2011,false,,,,,,,,,,,,,3006695,,,1957000,,4314000,"3,006,695 [1,957,000 – 4,314,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,AGO,Angola,Year,2011,false,,,,,,,,,,,,,3040461,,,1910000,,4456000,"3,040,461 [1,910,000 – 4,456,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,CHN,China,Year,2011,false,,,,,,,,,,,,,3367,,,,,,"3,367",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,BEN,Benin,Year,2011,false,,,,,,,,,,,,,3515943,,,2362000,,5240000,"3,515,943 [2,362,000 – 5,240,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,TCD,Chad,Year,2011,false,,,,,,,,,,,,,3565593,,,2570000,,4807000,"3,565,593 [2,570,000 – 4,807,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,NAM,Namibia,Year,2011,false,,,,,,,,,,,,,3671,,,2600,,5400,"3,671 [2,600 – 5,400]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,MYS,Malaysia,Year,2011,false,,,,,,,,,,,,,3954,,,,,,"3,954",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,PER,Peru,Year,2011,false,,,,,,,,,,,,,30122,,,26000,,34000,"30,122 [26,000 – 34,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,SOM,Somalia,Year,2011,false,,,,,,,,,,,,,301405,,,181000,,441000,"301,405 [181,000 – 441,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,GAB,Gabon,Year,2011,false,,,,,,,,,,,,,309019,,,145000,,576000,"309,019 [145,000 – 576,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,TLS,Timor-Leste,Year,2011,false,,,,,,,,,,,,,33063,,,26000,,41000,"33,063 [26,000 – 41,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,LAO,Lao People's Democratic Republic,Year,2011,false,,,,,,,,,,,,,36513,,,27000,,47000,"36,513 [27,000 – 47,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,PAN,Panama,Year,2011,false,,,,,,,,,,,,,376,,,360,,400,376 [360 – 400],,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,KHM,Cambodia,Year,2011,false,,,,,,,,,,,,,376898,,,338000,,424000,"376,898 [338,000 – 424,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,AZE,Azerbaijan,Year,2011,false,,,,,,,,,,,,,4,,,,,,4,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,GIN,Guinea,Year,2011,false,,,,,,,,,,,,,4455792,,,3236000,,6069000,"4,455,792 [3,236,000 – 6,069,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,MWI,Malawi,Year,2011,false,,,,,,,,,,,,,4476529,,,3085000,,6518000,"4,476,529 [3,085,000 – 6,518,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,GUY,Guyana,Year,2011,false,,,,,,,,,,,,,40880,,,33000,,50000,"40,880 [33,000 – 50,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,RWA,Rwanda,Year,2011,false,,,,,,,,,,,,,401794,,,301000,,511000,"401,794 [301,000 – 511,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,AFG,Afghanistan,Year,2011,false,,,,,,,,,,,,,454823,,,210000,,746000,"454,823 [210,000 – 746,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,GNQ,Equatorial Guinea,Year,2011,false,,,,,,,,,,,,,481385,,,302000,,706000,"481,385 [302,000 – 706,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,GMB,Gambia,Year,2011,false,,,,,,,,,,,,,483793,,,400000,,577000,"483,793 [400,000 – 577,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,ETH,Ethiopia,Year,2011,false,,,,,,,,,,,,,5094685,,,410000,,22710000,"5,094,685 [410,000 – 22,710,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,CMR,Cameroon,Year,2011,false,,,,,,,,,,,,,5462230,,,3592000,,8136000,"5,462,230 [3,592,000 – 8,136,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,KOR,Republic of Korea,Year,2011,false,,,,,,,,,,,,,505,,,,,,505,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,SWZ,Eswatini,Year,2011,false,,,,,,,,,,,,,549,,,,,,549,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,VEN,Venezuela (Bolivarian Republic of),Year,2011,false,,,,,,,,,,,,,58086,,,48000,,75000,"58,086 [48,000 – 75,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,MLI,Mali,Year,2011,false,,,,,,,,,,,,,6279267,,,4466000,,8577000,"6,279,267 [4,466,000 – 8,577,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,TZA,United Republic of Tanzania,Year,2011,false,,,,,,,,,,,,,6300351,,,3854000,,9585000,"6,300,351 [3,854,000 – 9,585,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,NGA,Nigeria,Year,2011,false,,,,,,,,,,,,,60529456,,,43880000,,82700000,"60,529,456 [43,880,000 – 82,700,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,SLB,Solomon Islands,Year,2011,false,,,,,,,,,,,,,62676,,,44000,,92000,"62,676 [44,000 – 92,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,TJK,Tajikistan,Year,2011,false,,,,,,,,,,,,,65,,,,,,65,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,BWA,Botswana,Year,2011,false,,,,,,,,,,,,,678,,,520,,970,678 [520 – 970],,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,SAU,Saudi Arabia,Year,2011,false,,,,,,,,,,,,,69,,,,,,69,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,CPV,Cabo Verde,Year,2011,false,,,,,,,,,,,,,7,,,,,,7,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,NER,Niger,Year,2011,false,,,,,,,,,,,,,7323097,,,4124000,,11200000,"7,323,097 [4,124,000 – 11,200,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,CIV,Côte d’Ivoire,Year,2011,false,,,,,,,,,,,,,7525922,,,5095000,,11190000,"7,525,922 [5,095,000 – 11,190,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,SEN,Senegal,Year,2011,false,,,,,,,,,,,,,709373,,,498000,,942000,"709,373 [498,000 – 942,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,ZWE,Zimbabwe,Year,2011,false,,,,,,,,,,,,,718725,,,473000,,982000,"718,725 [473,000 – 982,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,BLZ,Belize,Year,2011,false,,,,,,,,,,,,,72,,,,,,72,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,ERI,Eritrea,Year,2011,false,,,,,,,,,,,,,76678,,,49000,,107000,"76,678 [49,000 – 107,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,SUR,Suriname,Year,2011,false,,,,,,,,,,,,,771,,,,,,771,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,HTI,Haiti,Year,2011,false,,,,,,,,,,,,,79329,,,49000,,122000,"79,329 [49,000 – 122,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,YEM,Yemen,Year,2011,false,,,,,,,,,,,,,792458,,,480000,,1406000,"792,458 [480,000 – 1,406,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,STP,Sao Tome and Principe,Year,2011,false,,,,,,,,,,,,,8442,,,,,,"8,442",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,GTM,Guatemala,Year,2011,false,,,,,,,,,,,,,8638,,,7200,,11000,"8,638 [7,200 – 11,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,MOZ,Mozambique,Year,2011,false,,,,,,,,,,,,,8930459,,,6554000,,12230000,"8,930,459 [6,554,000 – 12,230,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,COL,Colombia,Year,2011,false,,,,,,,,,,,,,83763,,,64000,,104000,"83,763 [64,000 – 104,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,MDG,Madagascar,Year,2011,false,,,,,,,,,,,,,841836,,,524000,,1225000,"841,836 [524,000 – 1,225,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,COG,Congo,Year,2011,false,,,,,,,,,,,,,861145,,,485000,,1412000,"861,145 [485,000 – 1,412,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,SLV,El Salvador,Year,2011,false,,,,,,,,,,,,,9,,,,,,9,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,GHA,Ghana,Year,2011,false,,,,,,,,,,,,,9251148,,,6348000,,13300000,"9,251,148 [6,348,000 – 13,300,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,BFA,Burkina Faso,Year,2011,false,,,,,,,,,,,,,9320362,,,6648000,,12390000,"9,320,362 [6,648,000 – 12,390,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,ZAF,South Africa,Year,2011,false,,,,,,,,,,,,,9866,,,,,,"9,866",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,HND,Honduras,Year,2011,false,,,,,,,,,,,,,9969,,,7900,,12000,"9,969 [7,900 – 12,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,SDN,Sudan,Year,2011,false,,,,,,,,,,,,,951357,,,611000,,1442000,"951,357 [611,000 – 1,442,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,ARM,Armenia,Year,2010,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,EGY,Egypt,Year,2010,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,GEO,Georgia,Year,2010,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,IRQ,Iraq,Year,2010,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,KAZ,Kazakhstan,Year,2010,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,SYR,Syrian Arab Republic,Year,2010,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,TUR,Turkey,Year,2010,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,TKM,Turkmenistan,Year,2010,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,ARE,United Arab Emirates,Year,2010,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,DZA,Algeria,Year,2010,false,,,,,,,,,,,,,1,,,,,,1,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,DJI,Djibouti,Year,2010,false,,,,,,,,,,,,,1010,,,,,,"1,010",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,ZWE,Zimbabwe,Year,2010,false,,,,,,,,,,,,,1095083,,,606000,,1717000,"1,095,083 [606,000 – 1,717,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,YEM,Yemen,Year,2010,false,,,,,,,,,,,,,1134927,,,611000,,2686000,"1,134,927 [611,000 – 2,686,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,MEX,Mexico,Year,2010,false,,,,,,,,,,,,,1226,,,,,,"1,226",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,PNG,Papua New Guinea,Year,2010,false,,,,,,,,,,,,,1240109,,,439000,,2154000,"1,240,109 [439,000 – 2,154,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,RWA,Rwanda,Year,2010,false,,,,,,,,,,,,,1260186,,,848000,,1729000,"1,260,186 [848,000 – 1,729,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,KOR,Republic of Korea,Year,2010,false,,,,,,,,,,,,,1267,,,,,,"1,267",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,LBR,Liberia,Year,2010,false,,,,,,,,,,,,,1295630,,,838000,,2051000,"1,295,630 [838,000 – 2,051,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,PAK,Pakistan,Year,2010,false,,,,,,,,,,,,,1445704,,,660000,,2959000,"1,445,704 [660,000 – 2,959,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,BDI,Burundi,Year,2010,false,,,,,,,,,,,,,1608931,,,955000,,2677000,"1,608,931 [955,000 – 2,677,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,SUR,Suriname,Year,2010,false,,,,,,,,,,,,,1712,,,,,,"1,712",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,IRN,Iran (Islamic Republic of),Year,2010,false,,,,,,,,,,,,,1847,,,,,,"1,847",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,ECU,Ecuador,Year,2010,false,,,,,,,,,,,,,1888,,,,,,"1,888",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,SSD,South Sudan,Year,2010,false,,,,,,,,,,,,,1940101,,,1283000,,2836000,"1,940,101 [1,283,000 – 2,836,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,TLS,Timor-Leste,Year,2010,false,,,,,,,,,,,,,103604,,,74000,,137000,"103,604 [74,000 – 137,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,UGA,Uganda,Year,2010,false,,,,,,,,,,,,,11503116,,,7618000,,17700000,"11,503,116 [7,618,000 – 17,700,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,CRI,Costa Rica,Year,2010,false,,,,,,,,,,,,,110,,,,,,110,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,TJK,Tajikistan,Year,2010,false,,,,,,,,,,,,,111,,,,,,111,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,BGD,Bangladesh,Year,2010,false,,,,,,,,,,,,,113895,,,97000,,133000,"113,895 [97,000 – 133,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,GNB,Guinea-Bissau,Year,2010,false,,,,,,,,,,,,,122027,,,67000,,203000,"122,027 [67,000 – 203,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,MRT,Mauritania,Year,2010,false,,,,,,,,,,,,,128567,,,21000,,287000,"128,567 [21,000 – 287,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,HND,Honduras,Year,2010,false,,,,,,,,,,,,,13106,,,10000,,16000,"13,106 [10,000 – 16,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,PRK,Democratic People's Republic of Korea,Year,2010,false,,,,,,,,,,,,,13520,,,,,,"13,520",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,ARG,Argentina,Year,2010,false,,,,,,,,,,,,,14,,,,,,14,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,VUT,Vanuatu,Year,2010,false,,,,,,,,,,,,,15695,,,12000,,20000,"15,695 [12,000 – 20,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,BLZ,Belize,Year,2010,false,,,,,,,,,,,,,150,,,,,,150,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,COL,Colombia,Year,2010,false,,,,,,,,,,,,,163874,,,125000,,204000,"163,874 [125,000 – 204,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,PRY,Paraguay,Year,2010,false,,,,,,,,,,,,,18,,,,,,18,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,SLV,El Salvador,Year,2010,false,,,,,,,,,,,,,19,,,,,,19,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,BOL,Bolivia (Plurinational State of),Year,2010,false,,,,,,,,,,,,,19614,,,15000,,25000,"19,614 [15,000 – 25,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,MMR,Myanmar,Year,2010,false,,,,,,,,,,,,,2019172,,,1393000,,3044000,"2,019,172 [1,393,000 – 3,044,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,CAF,Central African Republic,Year,2010,false,,,,,,,,,,,,,2140887,,,1060000,,3519000,"2,140,887 [1,060,000 – 3,519,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,ZMB,Zambia,Year,2010,false,,,,,,,,,,,,,2169307,,,1449000,,3095000,"2,169,307 [1,449,000 – 3,095,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,TGO,Togo,Year,2010,false,,,,,,,,,,,,,2366948,,,1580000,,3356000,"2,366,948 [1,580,000 – 3,356,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,NAM,Namibia,Year,2010,false,,,,,,,,,,,,,2601,,,800,,6200,"2,601 [800 – 6,200]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,IDN,Indonesia,Year,2010,false,,,,,,,,,,,,,2730079,,,2199000,,3531000,"2,730,079 [2,199,000 – 3,531,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,STP,Sao Tome and Principe,Year,2010,false,,,,,,,,,,,,,2740,,,,,,"2,740",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,KEN,Kenya,Year,2010,false,,,,,,,,,,,,,2845913,,,1647000,,4630000,"2,845,913 [1,647,000 – 4,630,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,IND,India,Year,2010,false,,,,,,,,,,,,,20490000,,,15080000,,28300000,"20,490,000 [15,080,000 – 28,300,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,VNM,Viet Nam,Year,2010,false,,,,,,,,,,,,,23062,,,21000,,26000,"23,062 [21,000 – 26,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,COD,Democratic Republic of the Congo,Year,2010,false,,,,,,,,,,,,,23691683,,,16060000,,35620000,"23,691,683 [16,060,000 – 35,620,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,SWZ,Eswatini,Year,2010,false,,,,,,,,,,,,,268,,,,,,268,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,GAB,Gabon,Year,2010,false,,,,,,,,,,,,,285725,,,130000,,549000,"285,725 [130,000 – 549,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,SAU,Saudi Arabia,Year,2010,false,,,,,,,,,,,,,29,,,,,,29,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,KGZ,Kyrgyzstan,Year,2010,false,,,,,,,,,,,,,3,,,,,,3,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,MAR,Morocco,Year,2010,false,,,,,,,,,,,,,3,,,,,,3,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,UZB,Uzbekistan,Year,2010,false,,,,,,,,,,,,,3,,,,,,3,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,SLE,Sierra Leone,Year,2010,false,,,,,,,,,,,,,3031470,,,1954000,,4234000,"3,031,470 [1,954,000 – 4,234,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,BWA,Botswana,Year,2010,false,,,,,,,,,,,,,3072,,,1300,,8600,"3,072 [1,300 – 8,600]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,AGO,Angola,Year,2010,false,,,,,,,,,,,,,3125901,,,2009000,,4595000,"3,125,901 [2,009,000 – 4,595,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,TCD,Chad,Year,2010,false,,,,,,,,,,,,,3594883,,,2594000,,4735000,"3,594,883 [2,594,000 – 4,735,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,BEN,Benin,Year,2010,false,,,,,,,,,,,,,3713395,,,2495000,,5565000,"3,713,395 [2,495,000 – 5,565,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,NPL,Nepal,Year,2010,false,,,,,,,,,,,,,30690,,,15000,,63000,"30,690 [15,000 – 63,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,THA,Thailand,Year,2010,false,,,,,,,,,,,,,32480,,,,,,"32,480",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,GUY,Guyana,Year,2010,false,,,,,,,,,,,,,32656,,,26000,,41000,"32,656 [26,000 – 41,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,AFG,Afghanistan,Year,2010,false,,,,,,,,,,,,,353343,,,181000,,581000,"353,343 [181,000 – 581,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,SOM,Somalia,Year,2010,false,,,,,,,,,,,,,356323,,,214000,,527000,"356,323 [214,000 – 527,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,COM,Comoros,Year,2010,false,,,,,,,,,,,,,36538,,,,,,"36,538",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,KHM,Cambodia,Year,2010,false,,,,,,,,,,,,,361377,,,304000,,430000,"361,377 [304,000 – 430,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,PER,Peru,Year,2010,false,,,,,,,,,,,,,37121,,,33000,,42000,"37,121 [33,000 – 42,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,GNQ,Equatorial Guinea,Year,2010,false,,,,,,,,,,,,,381639,,,239000,,558000,"381,639 [239,000 – 558,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,BRA,Brazil,Year,2010,false,,,,,,,,,,,,,384655,,,346000,,417000,"384,655 [346,000 – 417,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,DOM,Dominican Republic,Year,2010,false,,,,,,,,,,,,,4247,,,3600,,5000,"4,247 [3,600 – 5,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,GIN,Guinea,Year,2010,false,,,,,,,,,,,,,4348149,,,3111000,,5940000,"4,348,149 [3,111,000 – 5,940,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,MWI,Malawi,Year,2010,false,,,,,,,,,,,,,4602005,,,3214000,,6681000,"4,602,005 [3,214,000 – 6,681,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,CHN,China,Year,2010,false,,,,,,,,,,,,,4990,,,,,,"4,990",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,LAO,Lao People's Democratic Republic,Year,2010,false,,,,,,,,,,,,,40528,,,30000,,54000,"40,528 [30,000 – 54,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,PAN,Panama,Year,2010,false,,,,,,,,,,,,,444,,,430,,470,444 [430 – 470],,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,GMB,Gambia,Year,2010,false,,,,,,,,,,,,,465479,,,367000,,580000,"465,479 [367,000 – 580,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,CPV,Cabo Verde,Year,2010,false,,,,,,,,,,,,,47,,,,,,47,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,MYS,Malaysia,Year,2010,false,,,,,,,,,,,,,5194,,,,,,"5,194",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,CMR,Cameroon,Year,2010,false,,,,,,,,,,,,,5361329,,,3578000,,7972000,"5,361,329 [3,578,000 – 7,972,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,MLI,Mali,Year,2010,false,,,,,,,,,,,,,5772983,,,4132000,,7960000,"5,772,983 [4,132,000 – 7,960,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EUR,Europe,Country,AZE,Azerbaijan,Year,2010,false,,,,,,,,,,,,,50,,,,,,50,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,BTN,Bhutan,Year,2010,false,,,,,,,,,,,,,526,,,,,,526,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,PHL,Philippines,Year,2010,false,,,,,,,,,,,,,54209,,,39000,,71000,"54,209 [39,000 – 71,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,VEN,Venezuela (Bolivarian Republic of),Year,2010,false,,,,,,,,,,,,,57257,,,47000,,74000,"57,257 [47,000 – 74,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,TZA,United Republic of Tanzania,Year,2010,false,,,,,,,,,,,,,6545932,,,3955000,,9995000,"6,545,932 [3,955,000 – 9,995,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,NGA,Nigeria,Year,2010,false,,,,,,,,,,,,,60749349,,,43800000,,83240000,"60,749,349 [43,800,000 – 83,240,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,SEAR,South-East Asia,Country,LKA,Sri Lanka,Year,2010,false,,,,,,,,,,,,,684,,,,,,684,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,OMN,Oman,Year,2010,false,,,,,,,,,,,,,7,,,,,,7,,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,NER,Niger,Year,2010,false,,,,,,,,,,,,,7007707,,,3855000,,10710000,"7,007,707 [3,855,000 – 10,710,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,ETH,Ethiopia,Year,2010,false,,,,,,,,,,,,,7701107,,,478000,,27080000,"7,701,107 [478,000 – 27,080,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,CIV,Côte d’Ivoire,Year,2010,false,,,,,,,,,,,,,7939844,,,5391000,,11380000,"7,939,844 [5,391,000 – 11,380,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,SEN,Senegal,Year,2010,false,,,,,,,,,,,,,792643,,,563000,,1046000,"792,643 [563,000 – 1,046,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,ZAF,South Africa,Year,2010,false,,,,,,,,,,,,,8060,,,,,,"8,060",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,MOZ,Mozambique,Year,2010,false,,,,,,,,,,,,,8455521,,,6102000,,11640000,"8,455,521 [6,102,000 – 11,640,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,HTI,Haiti,Year,2010,false,,,,,,,,,,,,,82766,,,48000,,131000,"82,766 [48,000 – 131,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,ERI,Eritrea,Year,2010,false,,,,,,,,,,,,,83471,,,53000,,119000,"83,471 [53,000 – 119,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,COG,Congo,Year,2010,false,,,,,,,,,,,,,835820,,,468000,,1370000,"835,820 [468,000 – 1,370,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,NIC,Nicaragua,Year,2010,false,,,,,,,,,,,,,866,,,730,,1000,"866 [730 – 1,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,GHA,Ghana,Year,2010,false,,,,,,,,,,,,,9171294,,,6265000,,13160000,"9,171,294 [6,265,000 – 13,160,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,BFA,Burkina Faso,Year,2010,false,,,,,,,,,,,,,9221846,,,6578000,,12230000,"9,221,846 [6,578,000 – 12,230,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AMR,Americas,Country,GTM,Guatemala,Year,2010,false,,,,,,,,,,,,,9545,,,7900,,12000,"9,545 [7,900 – 12,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,WPR,Western Pacific,Country,SLB,Solomon Islands,Year,2010,false,,,,,,,,,,,,,91425,,,65000,,132000,"91,425 [65,000 – 132,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,AFR,Africa,Country,MDG,Madagascar,Year,2010,false,,,,,,,,,,,,,937413,,,559000,,1501000,"937,413 [559,000 – 1,501,000]",,,EN,2019-02-12T05:00:00.000Z
+MALARIA002,Estimated number of malaria cases,numeric,EMR,Eastern Mediterranean,Country,SDN,Sudan,Year,2010,false,,,,,,,,,,,,,961960,,,606000,,1453000,"961,960 [606,000 – 1,453,000]",,,EN,2019-02-12T05:00:00.000Z
