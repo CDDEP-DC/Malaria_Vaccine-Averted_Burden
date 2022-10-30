@@ -6,7 +6,7 @@ WORKFLOW:
 
 Input data is in the "Data" folder.
 Python and R code is in the Main folder.
-All generated .csv files are in the "Results" folder.
+All generated .csv, .tiff, and .pdf files are in the "Results" folder.
 
 1. Malaria_Data.py reads files from the Data folder and outputs Malaria_Data.csv for analysis and Malaria_Country_Parameters.csv (Supplementary Table 2).
 
@@ -18,6 +18,6 @@ All generated .csv files are in the "Results" folder.
 
 5. Malaria_LineGraphs.R reads Malaria_byYear.csv and outputs Malaria_Cases_byYear.tiff (Figure 2), Malaria_ResCases_byYear.tiff (Figure 3), Malaria_Deaths_byYear.tiff (Figure 4), and Malaria_ResCases_byTFR.tiff (Figure 5).
 
-6. Malaria_Map_Cases.R reads Malaria_ByCountry.csv, pop.csv, and afr_g2014_2013_0.shp and outputs Malaria_Map_Cases.pdf (Figure 6). Similarly, Malaria_Map_ResCases.R ouptus Malaria_ResMap_Cases.pdf (Figure 7), and Malaria_Map_Deaths.R outputs Malaria_Map_Deaths.pdf (Figure 8).
+6. Malaria_Map_Cases.R reads Malaria_ByCountry.csv and files in "Data/CreateChoroplethPlotFiles" to generate Malaria_Map_Cases.pdf (Figure 6). Similarly, Malaria_Map_ResCases.R ouptus Malaria_ResMap_Cases.pdf (Figure 7), and Malaria_Map_Deaths.R outputs Malaria_Map_Deaths.pdf (Figure 8).
 
 7. Outcomes averted per capita for each country are generated at the end of each Malaria_Map_[Outcome].R file. 
