@@ -1,6 +1,6 @@
 # Malaria Vaccine-Averted Burden
 # Generate uncertainty intervals with MC simulation
-# Created by Alisa Hamilton
+# Created by Alisa Hamilton and Fardad Haghpanah
 
 import pandas as pd
 import os
