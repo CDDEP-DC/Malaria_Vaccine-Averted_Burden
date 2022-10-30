@@ -1,9 +1,6 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-@author: alisahamilton
-Created June 2022
-"""
+# Malaria Vaccine-Averted Burden
+# Generate point estimates for each outcome by country-year
+# Created by Alisa Hamilton
 
 import pandas as pd
 import os
@@ -19,7 +16,7 @@ import time
 start_time = time.time()
 
 #set directory
-OneDrive = "/Users/alisahamilton/Library/CloudStorage/OneDrive-CenterforDiseaseDynamics,Economics&Policy/HIV Malaria Vaccine/2. Code/"
+OneDrive = "[insert path]/Code/"
 
 scenarios = ['VE0', 'VE1', 'VE2', 'VE3']
 # 'VE0' = baseline (0% for all 10 years)
