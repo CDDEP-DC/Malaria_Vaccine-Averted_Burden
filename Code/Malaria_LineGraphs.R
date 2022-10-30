@@ -11,7 +11,7 @@ library(scales)
 library(reshape2)
 
 # set directory
-setwd("/Users/alisahamilton/Library/CloudStorage/OneDrive-CenterforDiseaseDynamics,Economics&Policy/HIV Malaria Vaccine/2. Code/")
+setwd("...")
 
 # load data
 Malaria <- read_csv("Results/Malaria_ByYear.csv")
@@ -81,40 +81,4 @@ CasesAvt2Plot <- ggplot(CasesAvt2) +
 tiff("Results/Malaria_ResCases_byTFR.tiff", units="in", width=7, height=5, res=300)
 print(CasesAvt2Plot)
 dev.off()
-
-
-
-
-#################### OLD CODE ##################################################
-# 
-# # plot cumulative cases averted by year
-# ggplot(ByYearMal) + ggtitle("Cumulative Cases Averted 2021-2030\nWHO Africa Region") + 
-#   labs(x = "Year", y = "Number of Cases", color = "Outcome") + 
-#   scale_color_manual(values = outcomes) + 
-#   theme(plot.title=element_text(hjust=0.5)) + 
-#   scale_x_continuous(labels=as.character(ByYearMal$year),breaks=ByYearMal$year) + 
-#   theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) + 
-#   scale_y_continuous(breaks = seq(0, 200000000, by = 10000000), labels=comma) + 
-#   geom_line(aes(y=ByYearMal$I_VE3_cum, x=ByYearMal$year, color="Cases Averted"), size=.6) +
-#   geom_ribbon(fill="purple", aes(ymin=ByYearMal$I_VE3_cum_min, ymax=ByYearMal$I_VE3_cum_max, x=ByYearMal$year), alpha = 0.2)
-# # Export as "Results/Malaria_Cases_byYear.png"
-# 
-# # plot  resistant cases and deaths averted by year
-# ggplot(ByYearMal) + ggtitle("Cumulative Resistant Cases and Deaths Averted 2021-2030\nWHO Africa Region") +
-#   labs(x = "Year", y = "Number of Resistant Cases or Deaths", color = "Outcome") + scale_color_manual(values = outcomes, limits=c("Resistant Cases Averted", "Deaths Averted")) + theme(plot.title=element_text(hjust=0.5)) + scale_x_continuous(labels=as.character(ByYearMal$year),breaks=ByYearMal$year) + theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) + scale_y_continuous(breaks = seq(0, 1400000, by = 100000), labels=comma) +
-#   geom_line(aes(y=ByYearMal$Ires_VE1_cum, x=ByYearMal$year, color="Resistant Cases Averted"), size=.6) +
-#   geom_ribbon(fill="blue", aes(ymin=ByYearMal$Ires_VE1_cum_min, ymax=ByYearMal$Ires_VE1_cum_max, x=ByYearMal$year), alpha = 0.2) +
-#   geom_line(aes(y=ByYearMal$D_VE1_cum, x=ByYearMal$year, color="Deaths Averted"), size=.6) +
-#   geom_ribbon(fill="red", aes(ymin=ByYearMal$D_VE1_cum_min, ymax=ByYearMal$D_VE1_cum_max, x=ByYearMal$year), alpha = 0.2)
-# # Export as "Results/Malaria_ResCases_Deaths_byYear.png"
-# 
-# # plot malaria resistance cases averted by TFR scenario 
-# scenarios <- c("TFR Increases to 80%" = "orange","Constant TFR"="blue")
-# ggplot(ByYearMal) + ggtitle("Cumulative Resistant Cases Averted by Treatment Failure Rate (TFR)\nWHO Africa Region 2021-2030") + 
-#   labs(x = "Year", y = "Resistant Cases Averted", color = "Scenarios") + scale_color_manual(values = scenarios, limits=c("Constant TFR", "TFR Increases to 80%")) + theme(plot.title=element_text(hjust=0.5)) + scale_x_continuous(labels=as.character(ByYearMal$year),breaks=ByYearMal$year) + theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) + scale_y_continuous(breaks = seq(0, 10000000, by = 1000000), labels=comma) +
-#   geom_line(aes(y=ByYearMal$Ires_VE1_cum, x=ByYearMal$year, color="Constant TFR"), size=.6) +
-#   geom_ribbon(fill="blue", aes(ymin=ByYearMal$Ires_VE1_cum_min, ymax=ByYearMal$Ires_VE1_cum_max, x=ByYearMal$year), alpha = 0.2) +
-#   geom_line(aes(y=ByYearMal$Ires2_VE1_cum, x=ByYearMal$year, color="TFR Increases to 80%"), size=.6) +
-#   geom_ribbon(fill="orange", aes(ymin=ByYearMal$Ires2_VE1_cum_min, ymax=ByYearMal$Ires2_VE1_cum_max, x=ByYearMal$year), alpha = 0.2)
-# # Export as "Results/Malaria_ResScenarios_byYear.png"
 
