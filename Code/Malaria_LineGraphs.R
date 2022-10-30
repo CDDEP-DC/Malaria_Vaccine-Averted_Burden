@@ -11,7 +11,7 @@ library(scales)
 library(reshape2)
 
 # set directory
-setwd("...")
+setwd("[instert file path]")
 
 # load data
 Malaria <- read_csv("Results/Malaria_ByYear.csv")
