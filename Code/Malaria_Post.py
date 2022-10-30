@@ -1,9 +1,6 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-@author: alisahamilton
-Created June 2022
-"""
+# Malaria Vaccine-Averted Burden
+# Post Processing
+# Created by Alisa Hamilton
 
 import pandas as pd
 import os
@@ -17,7 +14,7 @@ from datetime import date
 import glob
 import time
 
-OneDrive = "/Users/alisahamilton/Library/CloudStorage/OneDrive-CenterforDiseaseDynamics,Economics&Policy/HIV Malaria Vaccine/2. Code/"
+OneDrive = "[insert path]/Code/"
 iso3 = pd.read_excel(OneDrive + 'Data/Africa_ISO3.xlsx')
 data = pd.read_csv(OneDrive + 'Results/Malaria_MC.csv')
 data = data.merge(iso3, how='left', on='country')
@@ -110,18 +107,4 @@ for ve in scenarios:
     outcomes_all = pd.concat(outcomes_lst)
 outcomes_all.to_csv(OneDrive + 'Results/Malaria_byYear.csv')
 
-
-
-
-
-
-
-
-
-# total = total[['I_VE0','I_VE0_min','I_VE0_max', 'Ires_VE0','Ires_VE0_min','Ires_VE0_max', 'D_VE0','D_VE0_min','D_VE0_max',
-#                  'I_VE1_avd','I_VE1_avd_min','I_VE1_avd_max','Ires_VE1_avd','Ires_VE1_avd_min','Ires_VE1_avd_max','D_VE1_avd','D_VE1_avd_min','D_VE1_avd_max',
-#                  'I_VE2_avd','I_VE2_avd_min','I_VE2_avd_max','Ires_VE2_avd','Ires_VE2_avd_min','Ires_VE2_avd_max','D_VE2_avd','D_VE2_avd_min','D_VE2_avd_max',
-#                  'I_VE3_avd','I_VE3_avd_min','I_VE3_avd_max','Ires_VE3_avd','Ires_VE3_avd_min','Ires_VE3_avd_max','D_VE3_avd','D_VE3_avd_min','D_VE3_avd_max']]
-
-   
         
