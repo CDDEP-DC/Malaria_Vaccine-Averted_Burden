@@ -1,10 +1,6 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Sep  9 14:16:35 2021
-
-@author: alisahamilton
-"""
+# Malaria Vaccine-Averted Burden
+# Data Processing
+# Created by Alisa Hamilton
 
 import pandas as pd
 import os
@@ -18,7 +14,7 @@ from datetime import date
 import statsmodels.api as sm
 
 
-OneDrive = "/Users/alisahamilton/Library/CloudStorage/OneDrive-CenterforDiseaseDynamics,Economics&Policy/HIV Malaria Vaccine/2. Code/"
+OneDrive = "[instert file path]"
 
 # Malaria prevalence
 #malaria_url = "https://apps.who.int/gho/data/view.main.MALARIAINCIDENCEv?lang=en"
@@ -107,16 +103,6 @@ under5 = pd.read_excel(OneDrive + '/Data/Under5_Mortality_byCountry.xlsx')
 gdp_u5 = gdp.merge(under5, how='left', on='country')
 # Climate - https://geography.name/climate-2/
 malaria = malaria.merge(gdp_u5, on=['country','WHO_region'],how='left')
-
-#Matching
-match = malaria[['country', 'GDPpercap', 'U5_mortality', 'tsr','tsr_lower', 'tsr_upper', 'trr', 'trr_lower', 'trr_upper', 'tfr_malaria']]
-x = np.array(match['GDPpercap'].round(2).tolist())
-y = np.array(match['U5_mortality'].round(2).tolist())
-
-plt.plot(x, y, 'o')
-m, b = np.polyfit(x, y, 1)
-plt.plot(x, m*x+b)
-
 
 # Adjust TFRs for countries with out any studies
 malaria.loc[malaria['country'] == 'Botswana', 'tfr_malaria'] = 0.0332 #Kenya
@@ -226,8 +212,4 @@ final.to_csv(OneDrive + 'Results/Malaria_Data.csv')
 country_rates = final.loc[(final['year'] == 2021) & (final['country'] != 'Cabo Verde')]
 country_rates = country_rates[['country', 'at_risk', 'inc_byage', 'tfr_malaria', 'CFR_malaria']].set_index('country')
 country_rates.to_csv(OneDrive + 'Results/Malaria_Country_Parameters.csv')
-
-
-
-
 
