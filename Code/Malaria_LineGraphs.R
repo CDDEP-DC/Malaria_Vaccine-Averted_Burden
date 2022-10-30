@@ -1,5 +1,5 @@
-# Line Graphs for HIV/Malaria vaccine averted health burden project
-# Created by Alisa Hamilton; Updated 18 Feb 2022
+# Line Graphs for Malaria Vaccine-Averted Burden
+# Created by Alisa Hamilton
 
 library(readr)
 library(dplyr)
