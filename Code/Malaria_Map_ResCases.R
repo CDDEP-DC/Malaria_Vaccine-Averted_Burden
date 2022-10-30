@@ -8,7 +8,7 @@ library(dplyr)
 library(data.table)
 library(viridis)
 
-setwd("/Users/alisahamilton/Library/CloudStorage/OneDrive-CenterforDiseaseDynamics,Economics&Policy/HIV Malaria Vaccine/2. Code/")
+setwd("[insert path]/Code/")
 
 AvertData <- fread("Results/Malaria_ByCountry.csv") # Load Simulation Data
 AfrPop <- fread("Data/CreateChoroplethPlotFiles/pop.csv",header = T) # Load Population Data
