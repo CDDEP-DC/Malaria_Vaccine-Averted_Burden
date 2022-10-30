@@ -3,9 +3,9 @@
 This repository contains the data and code used in the paper "Malaria Vaccine Impact on Cases, Resistant Cases, and Deaths: A Modeling Study", which can be accessed at https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4231231. The model projects health burden averted with a vaccine similar to RTS,S administered yearly to infants in the WHO Africa Region from 2021-2030. 
 
 FOLDERS
-• Data: Input data files (Sources in Malaria_Data.py)
-• Main: Python code for analysis and R code for figures
-• Results: Generated .csv, .tiff, and .pdf files
+1. Main: Python code for analysis and R code for figures 
+2. Data: Input data files (Sources in Malaria_Data.py)
+3. Results: Generated .csv, .tiff, and .pdf files
 
 WORKFLOW
 1. Malaria_Data.py reads files from the Data folder and outputs Malaria_Data.csv for analysis and Malaria_Country_Parameters.csv (Supplementary Table 2).
