@@ -1,3 +1,6 @@
+# Map of resistant cases averted by country for Malaria Vaccine-Averted Burden
+# Created by Gary Lin and Alisa Hamilton
+
 library(rgdal)
 library(ggplot2)
 library(broom)
