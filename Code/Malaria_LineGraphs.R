@@ -11,7 +11,7 @@ library(scales)
 library(reshape2)
 
 # set directory
-setwd("/Users/alisahamilton/Library/CloudStorage/OneDrive-CenterforDiseaseDynamics,Economics&Policy/HIV Malaria Vaccine/2. Code/")
+setwd("[main path]")
 
 # load data
 Malaria <- read_csv("Results/Malaria_ByYear.csv")
