@@ -13,8 +13,7 @@ import numpy as np
 from datetime import date
 import statsmodels.api as sm
 
-
-OneDrive = "[instert file path]"
+OneDrive = "[main path]"
 
 # Malaria prevalence
 #malaria_url = "https://apps.who.int/gho/data/view.main.MALARIAINCIDENCEv?lang=en"
