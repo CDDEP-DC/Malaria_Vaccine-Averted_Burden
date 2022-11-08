@@ -1,9 +1,6 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-@author: alisahamilton
-Created June 2022
-"""
+# Malaria Vaccine-Averted Burden
+# Post Processing
+# Created by Alisa Hamilton
 
 import pandas as pd
 import os
