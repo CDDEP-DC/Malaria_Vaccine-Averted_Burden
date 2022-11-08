@@ -92,48 +92,13 @@ for ve in scenarios_avd:
     byyear['Ires2_avd_'+ve+'_cum_min'] = byyear['Ires2_avd_'+ve+'_min'].cumsum()
     byyear['Ires2_avd_'+ve+'_cum_max'] = byyear['Ires2_avd_'+ve+'_max'].cumsum()
     
-byyear_cum = byyear[['I_VE0_cum','I_VE0_cum_min', 'I_VE0_cum_max',
-                    'Ires_VE0_cum','Ires_VE0_cum_min', 'Ires_VE0_cum_max',
-                    'D_VE0_cum','D_VE0_cum_min', 'D_VE0_cum_max',
-                    'Ires2_VE0_cum','Ires2_VE0_cum_min', 'Ires2_VE0_cum_max',
-
-                    'I_VE1_cum','I_VE1_cum_min', 'I_VE1_cum_max',
-                    'Ires_VE1_cum','Ires_VE1_cum_min', 'Ires_VE1_cum_max',
-                    'D_VE1_cum','D_VE1_cum_min', 'D_VE1_cum_max',
-                    'Ires2_VE1_cum','Ires2_VE1_cum_min', 'Ires2_VE1_cum_max',
-
-                    'I_VE2_cum','I_VE2_cum_min', 'I_VE2_cum_max',
-                    'Ires_VE2_cum','Ires_VE2_cum_min', 'Ires_VE2_cum_max',
-                    'D_VE2_cum','D_VE2_cum_min', 'D_VE2_cum_max',
-                    'Ires2_VE2_cum','Ires2_VE2_cum_min', 'Ires2_VE2_cum_max',
-
-                    'I_VE3_cum','I_VE3_cum_min', 'I_VE3_cum_max',
-                    'Ires_VE3_cum','Ires_VE3_cum_min', 'Ires_VE3_cum_max',
-                    'D_VE3_cum','D_VE3_cum_min', 'D_VE3_cum_max',
-                    'Ires2_VE3_cum','Ires2_VE3_cum_min', 'Ires2_VE3_cum_max',
-
-                    'I_avd_VE1_cum','I_avd_VE1_cum_min', 'I_avd_VE1_cum_max',
-                    'Ires_avd_VE1_cum','Ires_avd_VE1_cum_min', 'Ires_avd_VE1_cum_max',
-                    'D_avd_VE1_cum','D_avd_VE1_cum_min', 'D_avd_VE1_cum_max',
-                    'Ires2_avd_VE1_cum','Ires2_avd_VE1_cum_min', 'Ires2_avd_VE1_cum_max',
-            
-                    'I_avd_VE2_cum','I_avd_VE2_cum_min', 'I_avd_VE2_cum_max',
-                    'Ires_avd_VE2_cum','Ires_avd_VE2_cum_min', 'Ires_avd_VE2_cum_max',
-                    'D_avd_VE2_cum','D_avd_VE2_cum_min', 'D_avd_VE2_cum_max',
-                    'Ires2_avd_VE2_cum','Ires2_avd_VE2_cum_min', 'Ires2_avd_VE2_cum_max',
-                 
-                    'I_avd_VE3_cum','I_avd_VE3_cum_min', 'I_avd_VE3_cum_max',
-                    'Ires_avd_VE3_cum','Ires_avd_VE3_cum_min', 'Ires_avd_VE3_cum_max',
-                    'D_avd_VE3_cum','D_avd_VE3_cum_min', 'D_avd_VE3_cum_max',
-                    'Ires2_avd_VE3_cum','Ires2_avd_VE3_cum_min', 'Ires2_avd_VE3_cum_max']]
-
 outcomes_all = ['I_','Ires_','D_','Ires2_',]
 outcomes_all_lst = []
 for ve in scenarios_all:
     for x in outcomes_all:
         #ve = 'VE1'
         #x = 'I_'
-        df = byyear_cum[[x+ve+'_cum',x+ve+'_cum_min', x+ve+'_cum_max']]
+        df = byyear[[x+ve+'_cum',x+ve+'_cum_min', x+ve+'_cum_max']]
         df['VE'] = ve
         df['outcome'] = x
         df.rename(columns={x+ve+'_cum': "est", x+ve+'_cum_min':'min', x+ve+'_cum_max':'max'}, inplace = True)
@@ -146,7 +111,7 @@ for ve in scenarios_avd:
     for x in outcomes_avd:
         #ve = 'VE1'
         #x = 'I_'
-        df = byyear_cum[[x+ve+'_cum',x+ve+'_cum_min', x+ve+'_cum_max']]
+        df = byyear[[x+ve+'_cum',x+ve+'_cum_min', x+ve+'_cum_max']]
         df['VE'] = ve
         df['outcome'] = x
         df.rename(columns={x+ve+'_cum': "est", x+ve+'_cum_min':'min', x+ve+'_cum_max':'max'}, inplace = True)
