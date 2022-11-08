@@ -1,6 +1,6 @@
 # Malaria_Vaccine-Averted_Burden
 
-This repository contains the data and code used in the paper "Malaria Vaccine Impact on Cases, Resistant Cases, and Deaths: A Modeling Study", which can be accessed at https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4231231. The model projects health burden averted with a vaccine similar to RTS,S administered yearly to infants in the WHO Africa Region from 2021-2030. 
+This repository contains the data and code used in the manuscript "Malaria Vaccine Impact on Cases, Resistant Cases, and Deaths in Africa: A Modeling Study", which can be accessed at https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4231231. The model projects health burden averted with a vaccine similar to RTS,S administered yearly to infants in the WHO Africa Region from 2021-2030. 
 
 FOLDERS
 1. Code: Python code for analysis and R code for figures 
@@ -18,7 +18,7 @@ WORKFLOW
 
 5. Malaria_Post.py reads Malaria_MC.csv and generates results by country (Results/Malaria_byCountry.csv and Results/Malaria_byCountry.xlsx) for Table 1, Figures 6-8, and Supplementary Tables 4-8 and generates results by year (Results/Malaria_byYear.csv) for Figures 2-5.
 
-6. Malaria_LineGraphs.R reads Malaria_byYear.csv and outputs Malaria_Cases_byYear.tiff (Figure 2), Malaria_ResCases_byYear.tiff (Figure 3), Malaria_Deaths_byYear.tiff (Figure 4), and Malaria_ResCases_byTFR.tiff (Figure 5).
+6. Malaria_LineGraphs.R reads Malaria_byYear.csv and outputs Malaria_CasesAvt_byYear.tiff (Figure 2), Malaria_ResCasesAvt_byYear.tiff (Figure 3), Malaria_DeathsAvt_byYear.tiff (Figure 4), Malaria_ResCases_byTFR.tiff (Figure 5), Malaria_CasesAll_byYear.tiff (Supplementary Figure 1), Malaria_ResCasesAll_byYear.tiff (Supplementary Figure 2), and Malaria_DeathsAll_byYear.tiff (Supplementary Figure 2).
 
 7. Malaria_Map_Cases.R reads Malaria_ByCountry.csv and files in "Data/CreateChoroplethPlotFiles" to generate Malaria_Map_Cases.pdf (Figure 6). Similarly, Malaria_Map_ResCases.R ouptus Malaria_ResMap_Cases.pdf (Figure 7), and Malaria_Map_Deaths.R outputs Malaria_Map_Deaths.pdf (Figure 8).
 
