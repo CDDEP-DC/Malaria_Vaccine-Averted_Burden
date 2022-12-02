@@ -26,8 +26,6 @@ scenarios = ['VE0', 'VE1', 'VE2', 'VE3']
 
 # parameters
 c = 0.7 #coverage
-#tsr = 0.693 # treatment seeking rate
-#trr = 0.757 # treatment received rate
 
 #load data
 data1 = pd.read_csv(OneDrive + "Results/Malaria_Data.csv").drop(columns='Unnamed: 0')
@@ -62,10 +60,7 @@ ve_lst = []
 for ve in scenarios:
     country_lst = []
     for country in countries:
-        data = data1.loc[data1['country'] == country]
-        #data = data1.loc[data1['country'] == "Angola"]
-        #data['CFR_malaria'] = .0029  
-        #cfr = data['CFR_malaria']               
+        data = data1.loc[data1['country'] == country]              
         data['VE'] = data[ve]
         data['cohort'] = np.r_[:len(data)] % 10 + 1
         data['cohort'] = data['cohort']
