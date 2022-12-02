@@ -38,7 +38,7 @@ ihme_min = ihme.pivot(index='country', columns='age', values='lower').reset_inde
 ihme_min['1_4prop_min'] = ihme_min['1-4 years'] / ihme_min['All ages']
 ihme_min['5_9prop_min'] = ihme_min['5-9 years'] / ihme_min['All ages']
 ihme_min = ihme_min[['country', '1_4prop_min', '5_9prop_min']]
-ihme_max = ihme.pivot(index='country', columns='age', values='lower').reset_index()
+ihme_max = ihme.pivot(index='country', columns='age', values='upper').reset_index()
 ihme_max['1_4prop_max'] = ihme_max['1-4 years'] / ihme_max['All ages']
 ihme_max['5_9prop_max'] = ihme_max['5-9 years'] / ihme_max['All ages']
 ihme_max = ihme_max[['country', '1_4prop_max', '5_9prop_max']]
