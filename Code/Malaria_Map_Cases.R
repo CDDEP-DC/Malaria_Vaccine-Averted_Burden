@@ -8,7 +8,7 @@ library(dplyr)
 library(data.table)
 library(viridis)
 
-setwd("[insert file path]/Code/")
+setwd("[Main file path]/Code/")
 
 AvertData <- fread("Results/Malaria_ByCountry.csv") # Load Simulation Data
 AfrPop <- fread("Data/CreateChoroplethPlotFiles/pop.csv",header = T) # Load Population Data
