@@ -22,48 +22,26 @@ malaria.loc[malaria['malaria_prev_max'] == 0, 'malaria_prev_max'] = malaria['mal
 malaria.loc[malaria['country'] == "Côte d'Ivoire", 'malaria_prev_min'] = 4087000
 malaria.loc[malaria['country'] == "Côte d'Ivoire", 'malaria_prev_max'] = 8000000
 
-# Malaria incidence GHO
-# malaria = malaria.iloc[1:]
-# malaria['malaria_prev'] = malaria['malaria_prev'].str.split().str[0].astype(float)
-# malaria['malaria_inc_rate'] = malaria['malaria_new_per1000'] / 1000
-# malaria = malaria.drop(columns=['malaria_new_per1000'])
-# malaria.loc[malaria['malaria_inc_rate'] > 0, 'malaria_endemic'] = 1
-
 # IHME Malaria Prevalence (number) by Age group
 #https://vizhub.healthdata.org/gbd-results/
 ihme = pd.read_csv(OneDrive + "Data/IHME-MalariaPrevalence_Number_byAge.csv")
 ihme = ihme[['location','age', 'val','upper','lower']]
 ihme.rename(columns={'location':'country'}, inplace=True)
-#ihme.loc[ihme['age'] == '<1 year', 'age'] = "0-4 years"
-#ihme.loc[ihme['age'] == '1-4 years', 'age'] = "1-4 years"
-#ihme = ihme.groupby(['location', 'age'])['val'].sum().reset_index()
-#ihme = ihme.loc[(ihme['age'] == 'All ages') | (ihme['age'] == '1-4 years') | (ihme['age'] == '5-9 years')]
 ihme_val = ihme.pivot(index='country', columns='age', values='val').reset_index()
 ihme_val.rename(columns={'1-4 years':'1_4est'}, inplace=True)
 ihme_val.rename(columns={'5-9 years':'5_9est'}, inplace=True)
 ihme_val.rename(columns={'All ages':'Allages_est'}, inplace=True)
-
 ihme_min = ihme.pivot(index='country', columns='age', values='lower').reset_index()
 ihme_min.rename(columns={'1-4 years':'1_4min'}, inplace=True)
 ihme_min.rename(columns={'5-9 years':'5_9min'}, inplace=True)
 ihme_min.rename(columns={'All ages':'Allages_min'}, inplace=True)
-
 ihme_max = ihme.pivot(index='country', columns='age', values='upper').reset_index()
 ihme_max.rename(columns={'1-4 years':'1_4max'}, inplace=True)
 ihme_max.rename(columns={'5-9 years':'5_9max'}, inplace=True)
 ihme_max.rename(columns={'All ages':'Allages_max'}, inplace=True)
-
 ihme_val['1_4prop_est'] = ihme_val['1_4est'] / ihme_val['Allages_est']
 ihme_val['5_9prop_est'] = ihme_val['5_9est'] / ihme_val['Allages_est']
 ihme_val = ihme_val[['country', '1_4prop_est', '5_9prop_est']]
-# ihme_min['1_4prop_min'] = ihme_min['1-4 years'] / ihme_min['All ages']
-# ihme_min['5_9prop_min'] = ihme_min['5-9 years'] / ihme_min['All ages']
-# ihme_min = ihme_min[['country', '1_4prop_min', '5_9prop_min']]
-# ihme_max['1_4prop_max'] = ihme_max['1-4 years'] / ihme_max['All ages']
-# ihme_max['5_9prop_max'] = ihme_max['5-9 years'] / ihme_max['All ages']
-# ihme_max = ihme_max[['country', '1_4prop_max', '5_9prop_max']]
-# ihme = ihme_val.merge(ihme_min, how='left', on='country')
-# ihme = ihme.merge(ihme_max, how='left', on='country')
 malaria = malaria.merge(ihme_val, how='left', on='country')
 
 # WHO regions
@@ -87,20 +65,6 @@ malaria = pd.merge(malaria,atrisk, how='outer', on='country')
 # 212 cases - https://www.statista.com/statistics/998391/number-reported-malaria-cases-french-guiana/
 # 290,832 total pop - https://www.worldometers.info/world-population/french-guiana-population/
 malaria.loc[malaria['country'] == 'French Guiana', 'malaria_prev'] = 212 #/ 290832
-
-# #treatment failure rates for Afican countries
-# tfr = pd.read_excel(OneDrive + "data/MTM_THERAPEUTIC_EFFICACY_STUDY_20220224.xlsx", sheet_name="Data")
-# tfr = tfr.loc[tfr['PLASMODIUM_SPECIES'] == "P. falciparum"]
-# tfr = tfr.loc[tfr['TREATMENT_FAILURE_PP'] != "  NA"]
-# tfr['TREATMENT_FAILURE_PP'] = tfr['TREATMENT_FAILURE_PP'].astype(float) * 0.01
-# tfr = tfr.loc[tfr['SAMPLE_SIZE'] >= 30]
-# iso2 = pd.read_stata(OneDrive + "Data/iso2codes.dta")
-# tfr = tfr.merge(iso2, how='left', on='ISO2')
-# tfr = tfr.drop(tfr[(tfr['TREATMENT_FAILURE_PP'] > 0.1) & (tfr['DRUG_NAME'] == "DRUG_AL")].index)
-# tfr = tfr.groupby('country')['TREATMENT_FAILURE_PP'].mean().reset_index()
-# tfr = tfr.replace("Cote d'Ivoire", "Côte d'Ivoire")
-# tfr.rename(columns={"TREATMENT_FAILURE_PP": "tfr_malaria"}, inplace = True)
-# malaria = malaria.merge(tfr, how='left', on='country').sort_values(by='country').reset_index()
 
 # Map countries with missing TFRs based on climate, under5 mortality, and GDP
 # World Bank GDP per capita - https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=ZG
@@ -159,13 +123,6 @@ impute.loc[(impute['country'] == 'Botswana') |
 impute = impute[['country','trr','tfr']]
 malaria = malaria.merge(impute,how='left',on='country')
 
-# Adjust TFRs for countries with out any studies
-# malaria.loc[malaria['country'] == 'Botswana', 'tfr_malaria'] = 0.0332 #Kenya
-# malaria.loc[malaria['country'] == 'Eswatini', 'tfr_malaria'] = 0.0332 #Kenya
-# malaria.loc[malaria['country'] == 'Namibia', 'tfr_malaria'] = 0.0332 #Kenya
-# malaria.loc[malaria['country'] == 'South Africa', 'tfr_malaria'] = 0.0332 #Kenya
-# malaria.loc[malaria['country'] == 'South Sudan', 'tfr_malaria'] = 0.0447 #Cameroon
-
 #CFRs
 low_trans_countries = ['Botswana', 'Comoros', 'Eritrea', 'Eswatini', 'Ethiopia', 'Madagascar', 'Namibia', 'Zimbabwe']
 
@@ -188,10 +145,6 @@ CFR_malaria = CFR_malaria.replace("Côte d’Ivoire", "Côte d'Ivoire")
 
 malaria = malaria.merge(CFR_malaria, how='left', on='country')
 
-# Severe malaria
-#sevmal = pd.read_excel(OneDrive + 'data/Severe malaria rates.xlsx')
-#malaria = malaria.merge(sevmal, how='left', on='country')
-
 # Population by age group
 #pop_url = "https://population.un.org/wpp/Download/Standard/CSV"
 countries = list(malaria.country.unique())
@@ -212,19 +165,8 @@ pop2 = pop2.drop(columns=['year', 1])
 pop = pop.drop(columns=['Pop1_4', 'Pop5_9'])
 pop = pop.merge(pop2, how='left', on='country')
 
-# pop['month'] = [list(range(1, 13)) for _ in range(pop.shape[0])]
-# pop = pop.explode('month').reset_index(drop=True)
-# pop['month'] = pop['month'].astype(int)
-# pop['year_month'] = pop['year'].astype(str) + '/' + pop['month'].astype(str)
-# pop['year_month'] = pd.to_datetime(pop['year_month']).dt.strftime('%Y/%m')
-# pop[1] = pop[1]/12
-
 final = malaria.merge(pop, how='left', on='country').sort_values(['WHO_region','country']).set_index(['WHO_region','country']).reset_index()
 #final['malaria_inc_rate'] = final['malaria_inc_rate']/12
-
-# # Age-stratafied pop
-# final.loc[final['year'] <= 2030, 'inc_byage'] = final['malaria_prev'] * final['5_9prop_est'] / final['Pop5_9']
-# final.loc[final['year'] <= 2024, 'inc_byage'] = final['malaria_prev'] * final['1_4prop_est'] / final['Pop1_4']
 
 # Difference VE scenarios
 final.loc[final['year'] > 2020, 'VE1'] = .4
