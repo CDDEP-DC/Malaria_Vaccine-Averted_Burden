@@ -3,7 +3,7 @@
 # Created by Alisa Hamilton
 
 import pandas as pd
-OneDrive = "/Users/alisahamilton/Library/CloudStorage/OneDrive-CenterforDiseaseDynamics,Economics&Policy/HIV Malaria Vaccine/2. Code/"
+OneDrive = "[Main file path]"
 
 # Malaria prevalence
 #malaria_url = "https://apps.who.int/gho/data/view.main.MALARIAINCIDENCEv?lang=en"
