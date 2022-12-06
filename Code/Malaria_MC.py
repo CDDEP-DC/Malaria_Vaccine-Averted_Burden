@@ -11,8 +11,7 @@ import time
 start_time = time.time()
 
 #set directory
-#OneDrive = "/Users/alisahamilton/Library/CloudStorage/OneDrive-CenterforDiseaseDynamics,Economics&Policy/HIV Malaria Vaccine/2. Code/"
-OneDrive = "/Users/Fardad/OneDrive - Center for Disease Dynamics, Economics & Policy/HIV Malaria Vaccine/2. Code/"
+OneDrive = "[Main file path]"
 
 # parameters
 c = 0.7 #coverage
@@ -21,16 +20,12 @@ c = 0.7 #coverage
 data1 = pd.read_csv(OneDrive + "Results/Malaria_Data.csv")
 
 def runMC(data1):
-    #OneDrive = "/Users/alisahamilton/Library/CloudStorage/OneDrive-CenterforDiseaseDynamics,Economics&Policy/HIV Malaria Vaccine/2. Code/"
-    OneDrive = "/Users/Fardad/OneDrive - Center for Disease Dynamics, Economics & Policy/HIV Malaria Vaccine/2. Code/"
+    OneDrive = "[Main file path]"
     
     # preprocessing
     data1 = data1.loc[(data1['year'] != 2020)]
     data1['VE0'] = 0 # Baseline - no vaccine 
     data1['coverage'] = .7
-    # data1 = data1[['country','year','Pop1', 'coverage', 'inc_byage', # ADD ORIGINAL VARIABLES AND DO CALC LATER
-    #            'trr','tfr','tfr_increasing',
-    #            'CFR_malaria','VE0', 'VE1', 'VE2', 'VE3']]
     countries = list(data1['country'].unique())
     scenarios = ['VE0', 'VE1', 'VE2', 'VE3']
     
@@ -51,8 +46,6 @@ def runMC(data1):
         
         #age-stratefied incidence rates
         prev = np.random.triangular(data1['malaria_prev_min'], data1['malaria_prev'], data1['malaria_prev_max']) #WHO prev
-        # prop1_4 = np.random.triangular(data1['1_4prop_min'], data1['1_4prop_est'], data1['1_4prop_max'])
-        # prop5_9 = np.random.triangular(data1['5_9prop_min'], data1['5_9prop_est'], data1['5_9prop_max'])
         
         #error ranges for parameters without CIs in data
         pop_error = np.random.triangular(pop_error_range[0],1, pop_error_range[1])
@@ -68,12 +61,7 @@ def runMC(data1):
         for ve in scenarios:
             country_lst = []
             for country in countries:
-                data = data1.loc[data1['country'] == country]
-                # trr = np.random.uniform(data['trr_lower'].values[0], data['trr_upper'].values[0])
-                # tfr = np.random.uniform(data['tfr_lower'].values[0], data['tfr_upper'].values[0])
-                #data = data1.loc[data1['country'] == "Angola"]
-                #data['CFR_malaria'] = .0029  
-                #cfr = data['CFR_malaria']               
+                data = data1.loc[data1['country'] == country]              
                 data['Pop1'] = data['Pop1'] * pop_error
                 data['VE'] = data[ve]
                 data['cohort'] = np.r_[:len(data)] % 10 + 1
@@ -142,8 +130,7 @@ if __name__ == "__main__":
     numproc = int(mp.cpu_count()-1)
     pools = mp.Pool(processes=numproc)
     # prepare input data
-    #OneDrive = "/Users/alisahamilton/Library/CloudStorage/OneDrive-CenterforDiseaseDynamics,Economics&Policy/HIV Malaria Vaccine/2. Code/"
-    OneDrive = "/Users/Fardad/OneDrive - Center for Disease Dynamics, Economics & Policy/HIV Malaria Vaccine/2. Code/"
+    OneDrive = "[Main file path]"
     data1 = pd.read_csv(OneDrive + "Results/Malaria_Data.csv")
     scenarios = ['VE0', 'VE1', 'VE2', 'VE3']
     cohorts = [1,2,3,4,5,6,7,8,9,10]
@@ -156,10 +143,7 @@ if __name__ == "__main__":
     mc_lst = pools.map(runMC, inputData)
     # print(mc_lst)
     
-
     # post processing
-    # mc_lst = [mc_lst[i][0] for i in range(len(mc_lst))]
-    # mc_lst = np.array(mc_lst).flatten()
     mc_dfs = pd.concat(mc_lst) #.sort_values(by=['country','year', 'I_novax']).reset_index()
     # print(mc_dfs)
 
@@ -186,8 +170,6 @@ if __name__ == "__main__":
 
     # point estimates
     mc_est = pd.read_csv(OneDrive + 'Results/Malaria_PE.csv')
-    #mc_mins['year_month'] = mc_mins['year_month'].apply(int)
-    #mc_maxs['year_month'] = mc_maxs['year_month'].apply(int)
     final = mc_est.merge(mc_mins, how='left', on=['country','year'])
     final = final.merge(mc_maxs, how='left', on=['country','year'])
     final = final[['country', 'year',  'I_VE0','I_VE0_min','I_VE0_max',
