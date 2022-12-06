@@ -16,7 +16,7 @@ import time
 start_time = time.time()
 
 #set directory
-OneDrive = "/Users/alisahamilton/Library/CloudStorage/OneDrive-CenterforDiseaseDynamics,Economics&Policy/HIV Malaria Vaccine/2. Code/"
+OneDrive = "[Main file path]"
 
 scenarios = ['VE0', 'VE1', 'VE2', 'VE3']
 # 'VE0' = baseline (0% for all 10 years)
