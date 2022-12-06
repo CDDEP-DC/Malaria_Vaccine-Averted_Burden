@@ -14,13 +14,13 @@ WORKFLOW
 
 3. Malaria_Imputation.py reads malaria_df.csv and uses multivariate regression to impute missing values for treatment received rate and treatment failure rates. This script generages Results/Malaria_Imputation.png (Supplementary Figure 1) and malaria_imputed.csv, which is used by Malaria_Data.py.
 
-4. Malaria_PE.py reads Malaria_Data.csv, runs the model to produce point estimates by country-year, and outputs Results/Malaria_PE.csv.
+4. Malaria_PE.py reads Malaria_Data.csv, runs the model to produce point estimates by country-year, and outputs Results/Malaria_PE.csv and Malaria_Country_Parameters.csv (Supplementary Table 4).
 
 5. Malaria_MC.py reads Malaria_Data.csv and Malaria_PE.csv, generates uncertainty intervals using Monte Carlo simulation (1,000 iterations), and outputs results by country-year in Malaria_MC.csv.
 
-6. Malaria_Post.py reads Malaria_MC.csv and generates results by country (Results/Malaria_byCountry.csv and Results/Malaria_byCountry.xlsx) for Table 1, Figures 6-8, and Supplementary Tables 4-8 and generates results by year (Results/Malaria_byYear.csv) for Figures 2-5.
+6. Malaria_Post.py reads Malaria_MC.csv and generates results by country (Results/Malaria_byCountry.csv and Results/Malaria_byCountry.xlsx) for Table 1, Figures 6-8, and Supplementary Tables 5-9 and generates results by year (Results/Malaria_byYear.csv) for Figures 2-5.
 
-7. Malaria_LineGraphs.R reads Malaria_byYear.csv and outputs Malaria_CasesAvt_byYear.tiff (Figure 2), Malaria_ResCasesAvt_byYear.tiff (Figure 3), Malaria_DeathsAvt_byYear.tiff (Figure 4), Malaria_ResCases_byTFR.tiff (Figure 5), Malaria_CasesAll_byYear.tiff (Supplementary Figure 1), Malaria_ResCasesAll_byYear.tiff (Supplementary Figure 2), and Malaria_DeathsAll_byYear.tiff (Supplementary Figure 2).
+7. Malaria_LineGraphs.R reads Malaria_byYear.csv and outputs Malaria_CasesAvt_byYear.tiff (Figure 2), Malaria_ResCasesAvt_byYear.tiff (Figure 3), Malaria_DeathsAvt_byYear.tiff (Figure 4), Malaria_ResCases_byTFR.tiff (Figure 5), Malaria_CasesAll_byYear.tiff (Supplementary Figure 2), Malaria_ResCasesAll_byYear.tiff (Supplementary Figure 3), and Malaria_DeathsAll_byYear.tiff (Supplementary Figure 4).
 
 8. Malaria_Map_Cases.R reads Malaria_ByCountry.csv and files in "Data/CreateChoroplethPlotFiles" to generate Malaria_Map_Cases.pdf (Figure 6). Similarly, Malaria_Map_ResCases.R ouptus Malaria_ResMap_Cases.pdf (Figure 7), and Malaria_Map_Deaths.R outputs Malaria_Map_Deaths.pdf (Figure 8).
 
