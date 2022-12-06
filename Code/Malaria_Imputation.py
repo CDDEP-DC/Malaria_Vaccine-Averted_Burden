@@ -22,7 +22,7 @@ from numpyro.diagnostics import print_summary, hpdi
 import warnings
     
 def runImputation():
-    OneDrive = "/Users/alisahamilton/Library/CloudStorage/OneDrive-CenterforDiseaseDynamics,Economics&Policy/HIV Malaria Vaccine/2. Code/"
+    OneDrive = "[Main file path]"
     
     ## set numpyro platform to cpu because I don't have the right kind of gpu
     pn.set_platform("cpu")
