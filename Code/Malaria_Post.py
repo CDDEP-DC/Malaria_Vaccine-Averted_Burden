@@ -14,7 +14,7 @@ from datetime import date
 import glob
 import time
 
-OneDrive = "[main path]" + "Code/"
+OneDrive = "[Main file path]" + "Code/"
 iso3 = pd.read_excel(OneDrive + 'Data/Africa_ISO3.xlsx')
 data = pd.read_csv(OneDrive + 'Results/Malaria_MC.csv')
 data = data.merge(iso3, how='left', on='country')
