@@ -330,7 +330,7 @@ def runImputation():
     ##   (they're probably not very good predictions, but it's the best we can do with this data)
     
     d_predRF_imp
-    d_predRF_imp.to_csv(OneDrive + 'Results/malaria_imputed.csv',index=False)
+    d_predRF_imp.to_csv(OneDrive + 'Data/malaria_imputed.csv',index=False)
     
     ## below I plotted the observed trr's (x axis) against predicted trr's (y axis)
     ##
