@@ -1,6 +1,6 @@
 # Malaria_Vaccine-Averted_Burden
 
-This repository contains the data and code used in the manuscript "Malaria Vaccine Impact on Cases, Drug Resistant Cases, and Deaths in Africa: A Modeling Study", which can be accessed at https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4231231. The model projects health burden averted with a vaccine similar to RTS,S administered yearly to one-year-olds in the WHO Africa Region from 2021-2030. 
+This repository contains the data and code used in the manuscript "Malaria Vaccine Impact on Cases, Drug Resistant Cases, and Deaths in Africa: A Modeling Study", which can be accessed at https://doi.org/10.21203/rs.3.rs-2362054/v1. The model projects health burden averted with a vaccine similar to RTS,S administered yearly to one-year-olds in the WHO Africa Region from 2021-2030. 
 
 FOLDERS
 1. Code: Python code for analysis and R code for figures 
