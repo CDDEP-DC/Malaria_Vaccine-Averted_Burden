@@ -44,15 +44,21 @@ ihme_val['5_9prop_est'] = ihme_val['5_9est'] / ihme_val['Allages_est']
 ihme_val = ihme_val[['country', '1_4prop_est', '5_9prop_est']]
 malaria = malaria.merge(ihme_val, how='left', on='country')
 
+#DTP3 coverage
+#https://www.who.int/data/gho/data/indicators/indicator-details/GHO/diphtheria-tetanus-toxoid-and-pertussis-(dtp3)-immunization-coverage-among-1-year-olds-(-)
+cov = pd.read_excel(OneDrive + "Data/DTP3coverage.xlsx")
+cov = cov.loc[cov['ParentLocationCode'] == 'AFR']
+cov = cov[['ParentLocation','SpatialDimValueCode','Location','Value']]
+cov.rename(columns={'ParentLocation':'WHO_region','Location':'country','SpatialDimValueCode':'ISO3','Value':'coverage'}, inplace=True)
+cov['coverage'] = cov['coverage'] / 100
+malaria = cov.merge(malaria, how='left',on='country')
+malaria = malaria.loc[~malaria['malaria_prev'].isnull()]
+
 # WHO regions
 regions = pd.read_csv(OneDrive + "Data/HIV_Incidence.csv")
 regions = regions.groupby(['ParentLocation', 'Location'])['Period'].max().reset_index().drop(columns=['Period'])
 regions.rename(columns={'ParentLocation':'WHO_region', 'Location':'country'}, inplace=True)
 regions = regions.replace("Côte d’Ivoire","Côte d'Ivoire")
-malaria = malaria.merge(regions, how='left', on='country')
-malaria.loc[(malaria['country'] == 'Sao Tome and Principe'), 'WHO_region'] = 'Africa'
-malaria.loc[(malaria['country'] == 'Iraq'), 'WHO_region'] = 'Eastern Mediterranean'
-malaria.loc[(malaria['country'] == 'Solomon Islands') | (malaria['country'] == 'Vanuatu'), 'WHO_region'] = 'Western Pacific'
 
 # Malaria at risk rates
 atrisk = pd.read_excel(OneDrive + 'Data/Malaria_endemic_at_risk_proportions.xlsx')
@@ -204,6 +210,14 @@ final['Pop1'] = final['at_risk'] * final[1]
 final = final.drop(columns=['WHO_region'])
 countries_malaria = list(final.country.unique())
 final.to_csv(OneDrive + 'Results/Malaria_Data.csv')
+
+# Population of 1 year olds in at risk areas per country
+per1k = final.groupby(['ISO3','country'])['Pop1'].sum()
+per1k = per1k * 1000
+per1k = per1k.reset_index()
+per1k.rename(columns={'country':'Country Name', "ISO3": "Country Code"}, inplace = True)
+per1k.to_csv(OneDrive + "Data/CreateChoroplethPlotFiles/Pop1_byCountry.csv")
+per1k.to_csv(OneDrive + "Data/Pop1_byCountry.csv")
 
 
 
