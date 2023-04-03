@@ -10,7 +10,7 @@ FOLDERS
 WORKFLOW
 1. Update OneDrive = "[Main file path]" in all Python and R scripts.
 
-2. Malaria_Data.py reads files from the Data folder and outputs Data/malaria_df.csv, runs Malaria_Imputation.py, and outputs Results/Malaria_Data.csv for analysis.
+2. Malaria_Data.py reads files from the Data folder and outputs Data/malaria_df.csv, runs Malaria_Imputation.py, and outputs Results/Malaria_Data.csv and Pop1_byCountry.csv for analysis.
 
 3. Malaria_Imputation.py reads Data/malaria_df.csv and uses multivariate regression to impute missing values for treatment received rate and treatment failure rates. This script generages Results/Malaria_Imputation.png (Supplementary Figure 1) and Data/malaria_imputed.csv, which is used by Malaria_Data.py.
 
