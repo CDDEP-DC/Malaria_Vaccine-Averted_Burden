@@ -18,10 +18,9 @@ WORKFLOW
 
 5. Malaria_MC.py reads Results/Malaria_Data.csv and Results/Malaria_PE.csv, generates uncertainty intervals using Monte Carlo simulation (1,000 iterations), and outputs results by country-year in Results/Malaria_MC.csv.
 
-6. Malaria_Post.py reads Results/Malaria_MC.csv and generates results by country (Results/Malaria_byCountry.csv and Results/Malaria_byCountry.xlsx) for Table 1, Figures 6-8, and Supplementary Tables 5-9 and generates results by year (Results/Malaria_byYear.csv) for Figures 2-5.
+6. Malaria_Post.py reads Results/Malaria_MC.csv and outputs Results/Malaria_byCountry.csv, Results/Malaria_byCountry_per1000.csv, Results/Malaria_Total_per1000.csv, and Results/Malaria_byYear.csv'.
 
 7. Malaria_LineGraphs.R reads Resutls/Malaria_byYear.csv and outputs Malaria_CasesAvt_byYear.tiff (Figure 2), Malaria_ResCasesAvt_byYear.tiff (Figure 3), Malaria_DeathsAvt_byYear.tiff (Figure 4), Malaria_ResCases_byTFR.tiff (Figure 5), Malaria_CasesAll_byYear.tiff (Supplementary Figure 2), Malaria_ResCasesAll_byYear.tiff (Supplementary Figure 3), and Malaria_DeathsAll_byYear.tiff (Supplementary Figure 4) in the Results folder.
 
 8. Malaria_Map_Cases.R reads Results/Malaria_ByCountry.csv and files in "Data/CreateChoroplethPlotFiles" to generate Malaria_Map_Cases.pdf (Figure 6). Similarly, Malaria_Map_ResCases.R ouptus Malaria_ResMap_Cases.pdf (Figure 7), and Malaria_Map_Deaths.R outputs Malaria_Map_Deaths.pdf (Figure 8) in the Results folder.
 
-9. Outcomes averted per 1,000 population for each country are generated at the end of each Malaria_Map_[Outcome].R file. 
