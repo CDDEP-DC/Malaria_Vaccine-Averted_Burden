@@ -13,9 +13,6 @@ start_time = time.time()
 #set directory
 OneDrive = "[Main file path]"
 
-# parameters
-c = 0.7 #coverage
-
 #preprocessing
 data1 = pd.read_csv(OneDrive + "Results/Malaria_Data.csv")
 
@@ -82,9 +79,9 @@ def runMC(data1):
                 for cohort in cohorts:
                     #cohort = 2
                     data2 = data.loc[data['cohort'] == cohort]
-                    data2['P_vax'] = data2['Pop1'] * c  * data2['VE']
-                    data2.loc[data2['year'] == 2021, 'uP_vax'] = data2['Pop1'] * c - data2['P_vax']
-                    data2.loc[data2['year'] == 2021, 'NotVaxd'] = data2['Pop1'] * (1-c)
+                    data2['P_vax'] = data2['Pop1'] * data2['coverage']  * data2['VE']
+                    data2.loc[data2['year'] == 2021, 'uP_vax'] = data2['Pop1'] * data2['coverage'] - data2['P_vax']
+                    data2.loc[data2['year'] == 2021, 'NotVaxd'] = data2['Pop1'] * (1-data2['coverage'])
                     data2.loc[data2['year'] == 2021, 'U_vax'] =  data2['uP_vax'] * (1 - data2['inc_byage'])
                     data2.loc[data2['year'] == 2021, 'U_novax'] = data2['NotVaxd'] * (1 - data2['inc_byage'])
                     data2.loc[data2['year'] == 2021, 'I_vax'] = data2['uP_vax'] * data2['inc_byage']
@@ -92,7 +89,7 @@ def runMC(data1):
                     data2.loc[data2['year'] == 2021, 'D_vax'] = data2['I_vax'] * data['CFR_malaria'] * cfr_error
                     data2.loc[data2['year'] == 2021, 'D_novax'] = data2['I_novax'] * data['CFR_malaria'] * cfr_error
                     for index, row in data2.iterrows():
-                        data2.loc[data2['year'] != 2021, 'uP_vax'] = data2['Pop1'] * c - data2['P_vax'] - data2['D_vax'].shift()
+                        data2.loc[data2['year'] != 2021, 'uP_vax'] = data2['Pop1'] * data2['coverage'] - data2['P_vax'] - data2['D_vax'].shift()
                         data2.loc[data2['year'] != 2021, 'NotVaxd'] = data2['NotVaxd'].shift() - data2['D_novax'].shift()
                         data2.loc[data2['year'] != 2021, 'U_vax'] =  data2['uP_vax'] * (1 - data2['inc_byage'])
                         data2['U_novax'] = data2['NotVaxd'] * (1 - data2['inc_byage'])
