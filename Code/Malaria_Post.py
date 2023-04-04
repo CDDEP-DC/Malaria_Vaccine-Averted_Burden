@@ -52,8 +52,26 @@ total = total.groupby('Total')[total.columns].sum()
 # By country
 bycountry = data.groupby(['country','ISO3'])[total.columns].sum()
 bycountry.to_csv(OneDrive + 'Results/Malaria_byCountry.csv')
-bycountry = data.groupby(['country'])[total.columns].sum()
-bycountry.to_excel(OneDrive + 'Results/Malaria_byCountry.xlsx')
+
+# per 1,000 Study Participants by country
+outcomes = list(bycountry.columns)
+bycountry_per1k = bycountry.reset_index()
+bycountry_per1k = bycountry_per1k.groupby('country')[outcomes].sum().reset_index()
+bycountry_pop1 = pd.read_csv(OneDrive + "Data/CreateChoroplethPlotFiles/Pop1_byCountry.csv").drop(columns=['Unnamed: 0','Country Code'])
+bycountry_per1k = bycountry_per1k.merge(bycountry_pop1, how='left',left_on='country',right_on='Country Name').drop(columns='Country Name')
+for outcome in outcomes:
+    bycountry_per1k[outcome] = bycountry_per1k[outcome] / bycountry_per1k['Pop1'] * 1000
+bycountry_per1k.to_csv(OneDrive + 'Results/Malaria_byCountry_per1000.csv')
+    
+# per 1,000 Study Participants WHO Africa Region (total)
+outcomes = list(bycountry.columns)
+total_per1k = bycountry.reset_index()
+total_per1k['total'] = 'total'
+total_per1k = total_per1k.groupby('total')[outcomes].sum().reset_index()
+total_pop = sum(bycountry_pop1['Pop1'])
+for outcome in outcomes:
+    total_per1k[outcome] = total_per1k[outcome] / total_pop * 1000
+total_per1k.to_csv(OneDrive + 'Results/Malaria_Total_per1000.csv')
 
 # By year
 byyear = data.groupby('year')[total.columns].sum()
@@ -118,8 +136,15 @@ for ve in scenarios_avd:
         outcomes_avd_lst.append(df)
 outcomes_avd = pd.concat(outcomes_avd_lst)
 
+
+# Oucomes per 1,000 by year
 byyear_final = outcomes_all.append(outcomes_avd)
+byyear_outcomes = ['est','min','max']
+for outcome in byyear_outcomes:
+    byyear_final[outcome] = byyear_final[outcome] / total_pop * 1000
+
 byyear_final.to_csv(OneDrive + 'Results/Malaria_byYear.csv')
+
 
    
         
