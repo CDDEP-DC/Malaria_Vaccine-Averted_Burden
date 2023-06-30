@@ -145,6 +145,3 @@ for outcome in byyear_outcomes:
 
 byyear_final.to_csv(OneDrive + 'Results/Malaria_byYear.csv')
 
-
-   
-        
