@@ -67,9 +67,6 @@ atrisk['pop_total'] = atrisk['pop_total'].str.replace(" ","").astype(float)
 atrisk['pop_atrisk'] = atrisk['pop_atrisk'].str.replace(" ","").astype(float)
 atrisk['at_risk'] = atrisk['pop_atrisk'] / atrisk['pop_total']
 malaria = pd.merge(malaria,atrisk, how='outer', on='country')
-# French Guiana input manually. 212 cases in 2019. Incidence rate = 212 / 290,832
-# 212 cases - https://www.statista.com/statistics/998391/number-reported-malaria-cases-french-guiana/
-# 290,832 total pop - https://www.worldometers.info/world-population/french-guiana-population/
 malaria.loc[malaria['country'] == 'French Guiana', 'malaria_prev'] = 212 #/ 290832
 
 # Map countries with missing TFRs based on climate, under5 mortality, and GDP
@@ -101,8 +98,17 @@ trr['trr'] = trr['trr']/100
 tfr = pd.read_excel(OneDrive + "Data/MTM_THERAPEUTIC_EFFICACY_STUDY_20220224.xlsx", sheet_name="Data")
 tfr = tfr.loc[tfr['PLASMODIUM_SPECIES'] == "P. falciparum"]
 tfr = tfr.loc[tfr['TREATMENT_FAILURE_PP'] != "  NA"]
-tfr['TREATMENT_FAILURE_PP'] = tfr['TREATMENT_FAILURE_PP'].astype(float) * 0.01
 tfr = tfr.loc[tfr['SAMPLE_SIZE'] >= 30]
+tfr['TREATMENT_FAILURE_PP'] = tfr['TREATMENT_FAILURE_PP'].astype(float) * 0.01
+
+# Average Treatment Failure Rate (%) (Min–Max) for each ACT drug (Sup Table 2)
+tfr_all = tfr[['DRUG_NAME','TREATMENT_FAILURE_PP']].sort_values(by=['DRUG_NAME','TREATMENT_FAILURE_PP'])
+tfr_ave = tfr_all.groupby('DRUG_NAME')['TREATMENT_FAILURE_PP'].mean().reset_index()
+tfr_min = tfr_all.groupby('DRUG_NAME')['TREATMENT_FAILURE_PP'].first().reset_index()
+tfr_max = tfr_all.groupby('DRUG_NAME')['TREATMENT_FAILURE_PP'].last().reset_index()
+tfr_all = tfr_ave.merge(tfr_min,how='left',on='DRUG_NAME')
+tfr_all = tfr_all.merge(tfr_max,how='left',on='DRUG_NAME').set_index('DRUG_NAME') *100
+
 iso2 = pd.read_stata(OneDrive + "Data/iso2codes.dta")
 tfr = tfr.merge(iso2, how='left', on='ISO2')
 tfr = tfr.drop(tfr[(tfr['TREATMENT_FAILURE_PP'] > 0.1) & (tfr['DRUG_NAME'] == "DRUG_AL")].index)
@@ -110,23 +116,49 @@ tfr = tfr.groupby('country')['TREATMENT_FAILURE_PP'].mean().reset_index()
 tfr = tfr.replace("Cote d'Ivoire", "Côte d'Ivoire")
 tfr.rename(columns={"TREATMENT_FAILURE_PP": "tfr"}, inplace = True)
 
+#parasite clearance proportions for Afican countries
+# Malaria Threats Map https://apps.who.int/malaria/maps/threats/
+pcr = pd.read_excel(OneDrive + "Data/MTM_THERAPEUTIC_EFFICACY_STUDY_20220224.xlsx", sheet_name="Data")
+pcr = pcr.loc[pcr['PLASMODIUM_SPECIES'] == "P. falciparum"]
+pcr = pcr.loc[pcr['POSITIVE_DAY_3 (days)'] != "  NA"]
+pcr = pcr.loc[pcr['SAMPLE_SIZE'] >= 30]
+pcr['POSITIVE_DAY_3 (days)'] = pcr['POSITIVE_DAY_3 (days)'].astype(float) * 0.01
+
+# Average proportion of patients with parasitemia on day 3 (%) (Min–Max) for each ACT drug (Sup Table 2)
+pcr_all = pcr[['DRUG_NAME','POSITIVE_DAY_3 (days)']].sort_values(by=['DRUG_NAME','POSITIVE_DAY_3 (days)'])
+pcr_ave = pcr_all.groupby('DRUG_NAME')['POSITIVE_DAY_3 (days)'].mean().reset_index()
+pcr_min = pcr_all.groupby('DRUG_NAME')['POSITIVE_DAY_3 (days)'].first().reset_index()
+pcr_max = pcr_all.groupby('DRUG_NAME')['POSITIVE_DAY_3 (days)'].last().reset_index()
+pcr_all = pcr_ave.merge(pcr_min,how='left',on='DRUG_NAME')
+pcr_all = pcr_all.merge(pcr_max,how='left',on='DRUG_NAME').set_index('DRUG_NAME') *100
+actdrugs = pcr_all.merge(tfr_all,how='right',on='DRUG_NAME')
+
+iso2 = pd.read_stata(OneDrive + "Data/iso2codes.dta")
+pcr = pcr.merge(iso2, how='left', on='ISO2')
+pcr = pcr.drop(pcr[(pcr['POSITIVE_DAY_3 (days)'] > 0.1) & (pcr['DRUG_NAME'] == "DRUG_AL")].index)
+pcr = pcr.groupby('country')['POSITIVE_DAY_3 (days)'].mean().reset_index()
+pcr = pcr.replace("Cote d'Ivoire", "Côte d'Ivoire")
+pcr.rename(columns={"POSITIVE_DAY_3 (days)": "pcr"}, inplace = True)
+
 # Export for Malaria_Imputation.py
 malaria_df = gdp_u5.merge(trr, how='left',on='country')
 malaria_df = malaria_df.merge(tfr, how='left',on='country').drop(columns=['WHO_region'])
+malaria_df = malaria_df.merge(pcr, how='left',on='country')
 malaria_df.to_csv(OneDrive + 'Data/malaria_df.csv')
 
 # Run Malaria_Imputation to impute missing values and generate Supplementary Figure 1
-from Malaria_Imputation import runImputation
+# from Malaria_Imputation import runImputation
 
 #Imputed data for TRR and TFR from Malaria_Imputation.py
-impute = pd.read_csv(OneDrive + 'Data/malaria_imputed.csv')
-impute.loc[impute['country'] == 'Botswana', 'trr'] = impute['pred_trr'] 
-impute.loc[(impute['country'] == 'Botswana') | 
-           (impute['country'] == 'Eswatini') | 
-           (impute['country'] == 'Namibia') | 
-           (impute['country'] == 'South Africa') |
-           (impute['country'] == 'South Sudan'), 'tfr'] = impute['pred_tfr']
-impute = impute[['country','trr','tfr']]
+impute_pcr = pd.read_csv(OneDrive + 'Data/malaria_imputed_pcr.csv')
+impute_pcr = impute_pcr[['country','pcr','pred_pcr','trr','pred_trr']]
+impute_tfr = pd.read_csv(OneDrive + 'Data/malaria_imputed_tfr.csv')
+impute_tfr = impute_tfr[['country','tfr','pred_tfr']]
+impute = impute_pcr.merge(impute_tfr,how='left',on='country')
+impute.loc[impute['pcr'].isnull(), 'pcr'] = impute['pred_pcr'] 
+impute.loc[impute['trr'].isnull(), 'trr'] = impute['pred_trr'] 
+impute.loc[impute['tfr'].isnull(), 'tfr'] = impute['pred_tfr']
+impute = impute[['country','trr','pcr','tfr']]
 malaria = malaria.merge(impute,how='left',on='country')
 
 #CFRs
@@ -175,20 +207,30 @@ final = malaria.merge(pop, how='left', on='country').sort_values(['WHO_region','
 #final['malaria_inc_rate'] = final['malaria_inc_rate']/12
 
 # Difference VE scenarios
-final.loc[final['year'] > 2020, 'VE1'] = .4
-final.loc[final['year'] > 2024, 'VE1'] = 0
+#VE1
+final.loc[final['year'] == 2021, 'VE1'] = .4
+final.loc[final['year'] == 2022, 'VE1'] = .4
+final.loc[final['year'] == 2023, 'VE1'] = .4
+final.loc[final['year'] == 2024, 'VE1'] = .4
+final.loc[final['year'] >= 2025, 'VE1'] = 0
+#VE2
 final.loc[final['year'] == 2021, 'VE2'] = .8
 final.loc[final['year'] == 2022, 'VE2'] = .6
 final.loc[final['year'] == 2023, 'VE2'] = .4
 final.loc[final['year'] == 2024, 'VE2'] = .2
-final.loc[final['year'] >= 2025, 'VE2'] = 0
+final.loc[final['year'] == 2025, 'VE2'] = 0
+final.loc[final['year'] == 2026, 'VE2'] = 0
+final.loc[final['year'] == 2027, 'VE2'] = 0
+final.loc[final['year'] == 2028, 'VE2'] = 0
+final.loc[final['year'] >= 2029, 'VE2'] = 0
+#VE3
 final['VE3'] = .4
 
 # Increasing Resistance Scenario - each country's TFR incrementaly increases to 80% by 2030
 final_lst = []
 for country in countries:
     data = final.loc[final['country'] == country]
-    #data = final.loc[final['country'] ==  "Angola"]
+    #tfr increases to 80% by 2030
     delta_tfr = (0.8 - data['tfr'].values[0]) / 9
     data.loc[data['year'] == 2021, 'tfr_increasing'] = data['tfr']
     data.loc[data['year'] == 2022, 'tfr_increasing'] = data['tfr'] + delta_tfr
@@ -201,6 +243,19 @@ for country in countries:
     data.loc[data['year'] == 2029, 'tfr_increasing'] = data['tfr'] + delta_tfr*8
     data.loc[data['year'] == 2030, 'tfr_increasing'] = data['tfr'] + delta_tfr*9
     data.loc[data['year'] == 2031, 'tfr_increasing'] = 0.80
+    #pcr increases to 80% by 2030
+    delta_tfr = (0.8 - data['pcr'].values[0]) / 9
+    data.loc[data['year'] == 2021, 'pcr_increasing'] = data['pcr']
+    data.loc[data['year'] == 2022, 'pcr_increasing'] = data['pcr'] + delta_tfr
+    data.loc[data['year'] == 2023, 'pcr_increasing'] = data['pcr'] + delta_tfr*2
+    data.loc[data['year'] == 2024, 'pcr_increasing'] = data['pcr'] + delta_tfr*3
+    data.loc[data['year'] == 2025, 'pcr_increasing'] = data['pcr'] + delta_tfr*4
+    data.loc[data['year'] == 2026, 'pcr_increasing'] = data['pcr'] + delta_tfr*5
+    data.loc[data['year'] == 2027, 'pcr_increasing'] = data['pcr'] + delta_tfr*6
+    data.loc[data['year'] == 2028, 'pcr_increasing'] = data['pcr'] + delta_tfr*7
+    data.loc[data['year'] == 2029, 'pcr_increasing'] = data['pcr'] + delta_tfr*8
+    data.loc[data['year'] == 2030, 'pcr_increasing'] = data['pcr'] + delta_tfr*9
+    data.loc[data['year'] == 2031, 'pcr_increasing'] = 0.80
     final_lst.append(data)
 final = pd.concat(final_lst) #.drop(columns='index')
 
