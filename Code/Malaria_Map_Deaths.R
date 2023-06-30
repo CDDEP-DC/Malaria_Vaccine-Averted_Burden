@@ -5,7 +5,7 @@ library(dplyr)
 library(data.table)
 library(viridis)
 
-setwd("/Users/alisahamilton/Library/CloudStorage/OneDrive-CenterforDiseaseDynamics,Economics&Policy/HIV Malaria Vaccine/2. Code/")
+setwd("[File path]")
 
 AvertData <- fread("Results/Malaria_ByCountry.csv") # Load Simulation Data
 AfrPop <- fread("Data/CreateChoroplethPlotFiles/Pop1_byCountry.csv",header = T) # Load Population Data
@@ -39,5 +39,3 @@ averted_pt <- as.data.frame(AfrShape@data$Deaths_averted_pt)
 averted_min <- as.data.frame(AfrShape@data$Deaths_averted_pt_min)
 averted_max <- as.data.frame(AfrShape@data$Deaths_averted_pt_max)
 Averted_per1000 <- cbind(countries, averted_pt, averted_min, averted_max)
-
-
