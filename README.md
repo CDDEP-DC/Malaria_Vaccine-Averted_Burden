@@ -1,4 +1,5 @@
 # Malaria_Vaccine-Averted_Burden
+[![DOI](https://zenodo.org/badge/559558614.svg)](https://zenodo.org/badge/latestdoi/559558614)
 
 This repository contains the data and code used in the manuscript "Malaria Vaccine Impact on Cases, Drug Resistant Cases, and Deaths in Africa: A Modeling Study". The model projects health burden averted with a vaccine similar to RTS,S administered yearly to one-year-olds in the WHO Africa Region from 2021-2030. 
 
